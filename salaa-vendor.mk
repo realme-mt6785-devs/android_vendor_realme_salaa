@@ -14,7 +14,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/salaa/proprietary/odm/bin/hw/vendor.oplus.hardware.oplusSensor@1.0-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.oplus.hardware.oplusSensor@1.0-service \
     vendor/realme/salaa/proprietary/odm/bin/init.oplus.btChangePermission.sh:$(TARGET_COPY_OUT_ODM)/bin/init.oplus.btChangePermission.sh \
     vendor/realme/salaa/proprietary/odm/bin/init.oplus.fingerprints.sh:$(TARGET_COPY_OUT_ODM)/bin/init.oplus.fingerprints.sh \
-    vendor/realme/salaa/proprietary/odm/bin/iwpriv_vendor:$(TARGET_COPY_OUT_ODM)/bin/iwpriv_vendor \
     vendor/realme/salaa/proprietary/odm/bin/rpmbengclient_test:$(TARGET_COPY_OUT_ODM)/bin/rpmbengclient_test \
     vendor/realme/salaa/proprietary/odm/etc/audio/audio_device/audio_device.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_device/audio_device.xml \
     vendor/realme/salaa/proprietary/odm/etc/audio/audio_device/common/audio_device.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_device/common/audio_device.xml \
@@ -139,7 +138,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/salaa/proprietary/odm/etc/camera/fwk_config.json:$(TARGET_COPY_OUT_ODM)/etc/camera/fwk_config.json \
     vendor/realme/salaa/proprietary/odm/etc/init/init.oplus.reserve.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.oplus.reserve.rc \
     vendor/realme/salaa/proprietary/odm/etc/init/init.pn8x.nfc.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.pn8x.nfc.rc \
-    vendor/realme/salaa/proprietary/odm/etc/init/init.vendor.oplus.connectivity.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.vendor.oplus.connectivity.rc \
     vendor/realme/salaa/proprietary/odm/etc/init/vendor.oplus.hardware.biometrics.fingerprint@2.1-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.biometrics.fingerprint@2.1-service.rc \
     vendor/realme/salaa/proprietary/odm/etc/init/vendor.oplus.hardware.charger@1.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.charger@1.0-service.rc \
     vendor/realme/salaa/proprietary/odm/etc/init/vendor.oplus.hardware.mtkmodemaci@1.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.mtkmodemaci@1.0-service.rc \
@@ -152,7 +150,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/salaa/proprietary/odm/etc/sensor/sensor_config.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/sensor_config.json \
     vendor/realme/salaa/proprietary/odm/etc/temperature_profile/sys_high_temp_protect_realme_20741.xml:$(TARGET_COPY_OUT_ODM)/etc/temperature_profile/sys_high_temp_protect_realme_20741.xml \
     vendor/realme/salaa/proprietary/odm/etc/temperature_profile/sys_thermal_control_config.xml:$(TARGET_COPY_OUT_ODM)/etc/temperature_profile/sys_thermal_control_config.xml \
-    vendor/realme/salaa/proprietary/odm/etc/vendor_wifi_rus_config.xml:$(TARGET_COPY_OUT_ODM)/etc/vendor_wifi_rus_config.xml \
     vendor/realme/salaa/proprietary/odm/etc/wifi/txpowerctrl.cfg:$(TARGET_COPY_OUT_ODM)/etc/wifi/txpowerctrl.cfg \
     vendor/realme/salaa/proprietary/odm/etc/wifi/wifi.cfg:$(TARGET_COPY_OUT_ODM)/etc/wifi/wifi.cfg \
     vendor/realme/salaa/proprietary/odm/etc/wifi/wifi_active_channel.cfg:$(TARGET_COPY_OUT_ODM)/etc/wifi/wifi_active_channel.cfg \
@@ -279,7 +276,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/salaa/proprietary/odm/lib/vendor.oplus.hardware.orms@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.orms@1.0.so \
     vendor/realme/salaa/proprietary/odm/lib/vendor.oplus.hardware.radio@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.radio@1.0.so \
     vendor/realme/salaa/proprietary/odm/lib/vendor.oplus.hardware.subsys@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.subsys@1.0.so \
-    vendor/realme/salaa/proprietary/odm/lib/vendor.oplus.hardware.wifi@1.1.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.wifi@1.1.so \
     vendor/realme/salaa/proprietary/odm/lib64/anc.hal.so:$(TARGET_COPY_OUT_ODM)/lib64/anc.hal.so \
     vendor/realme/salaa/proprietary/odm/lib64/hw/fingerprint.focaltech.default.so:$(TARGET_COPY_OUT_ODM)/lib64/hw/fingerprint.focaltech.default.so \
     vendor/realme/salaa/proprietary/odm/lib64/hw/fingerprint.goodix_G2.default.so:$(TARGET_COPY_OUT_ODM)/lib64/hw/fingerprint.goodix_G2.default.so \
@@ -348,7 +344,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/salaa/proprietary/odm/lib64/vendor.oplus.hardware.orms@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.orms@1.0.so \
     vendor/realme/salaa/proprietary/odm/lib64/vendor.oplus.hardware.radio@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.radio@1.0.so \
     vendor/realme/salaa/proprietary/odm/lib64/vendor.oplus.hardware.subsys@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.subsys@1.0.so \
-    vendor/realme/salaa/proprietary/odm/lib64/vendor.oplus.hardware.wifi@1.1.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.wifi@1.1.so \
     vendor/realme/salaa/proprietary/odm/vendor/app/mcRegistry/030b0000000000000000000000000000.drbin:$(TARGET_COPY_OUT_ODM)/vendor/app/mcRegistry/030b0000000000000000000000000000.drbin \
     vendor/realme/salaa/proprietary/odm/vendor/app/mcRegistry/030b0000000000000000000000000000.tlbin:$(TARGET_COPY_OUT_ODM)/vendor/app/mcRegistry/030b0000000000000000000000000000.tlbin \
     vendor/realme/salaa/proprietary/odm/vendor/app/mcRegistry/030c0000000000000000000000000000.drbin:$(TARGET_COPY_OUT_ODM)/vendor/app/mcRegistry/030c0000000000000000000000000000.drbin \
@@ -783,7 +778,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/salaa/proprietary/vendor/etc/virtual-spn-conf-by-efpnn.xml:$(TARGET_COPY_OUT_VENDOR)/etc/virtual-spn-conf-by-efpnn.xml \
     vendor/realme/salaa/proprietary/vendor/etc/virtual-spn-conf-by-efspn.xml:$(TARGET_COPY_OUT_VENDOR)/etc/virtual-spn-conf-by-efspn.xml \
     vendor/realme/salaa/proprietary/vendor/etc/virtual-spn-conf-by-imsi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/virtual-spn-conf-by-imsi.xml \
-    vendor/realme/salaa/proprietary/vendor/etc/wfd_source_capability.csv:$(TARGET_COPY_OUT_VENDOR)/etc/wfd_source_capability.csv \
     vendor/realme/salaa/proprietary/vendor/firmware/BT_FW.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/BT_FW.cfg \
     vendor/realme/salaa/proprietary/vendor/firmware/WIFI_RAM_CODE_soc1_0_2a_1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/WIFI_RAM_CODE_soc1_0_2a_1.bin \
     vendor/realme/salaa/proprietary/vendor/firmware/WMT_SOC.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/WMT_SOC.cfg \
@@ -1865,11 +1859,9 @@ PRODUCT_COPY_FILES += \
     vendor/realme/salaa/proprietary/vendor/lib/libvpu5.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvpu5.so \
     vendor/realme/salaa/proprietary/vendor/lib/libvpud_vcodec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvpud_vcodec.so \
     vendor/realme/salaa/proprietary/vendor/lib/libvt_custom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvt_custom.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libwapi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwapi.so \
     vendor/realme/salaa/proprietary/vendor/lib/libwo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwo.so \
     vendor/realme/salaa/proprietary/vendor/lib/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwvhidl.so \
     vendor/realme/salaa/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so \
-    vendor/realme/salaa/proprietary/vendor/lib/meta_wifi_data.so:$(TARGET_COPY_OUT_VENDOR)/lib/meta_wifi_data.so \
     vendor/realme/salaa/proprietary/vendor/lib/mt6785/libdpframework.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6785/libdpframework.so \
     vendor/realme/salaa/proprietary/vendor/lib/mt6785/libmtk_drvb.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6785/libmtk_drvb.so \
     vendor/realme/salaa/proprietary/vendor/lib/mt6785/libnir_neon_driver.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6785/libnir_neon_driver.so \
@@ -2992,14 +2984,11 @@ PRODUCT_COPY_FILES += \
     vendor/realme/salaa/proprietary/vendor/lib64/libvow_ap_test_nn.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvow_ap_test_nn.so \
     vendor/realme/salaa/proprietary/vendor/lib64/libvpu.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvpu.so \
     vendor/realme/salaa/proprietary/vendor/lib64/libvpu5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvpu5.so \
-    vendor/realme/salaa/proprietary/vendor/lib64/libwapi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwapi.so \
     vendor/realme/salaa/proprietary/vendor/lib64/libwifi-hal-mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwifi-hal-mtk.so \
-    vendor/realme/salaa/proprietary/vendor/lib64/libwifitest.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwifitest.so \
     vendor/realme/salaa/proprietary/vendor/lib64/libwo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwo.so \
     vendor/realme/salaa/proprietary/vendor/lib64/libwpfa.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwpfa.so \
     vendor/realme/salaa/proprietary/vendor/lib64/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwvhidl.so \
     vendor/realme/salaa/proprietary/vendor/lib64/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mediadrm/libwvdrmengine.so \
-    vendor/realme/salaa/proprietary/vendor/lib64/meta_wifi_data.so:$(TARGET_COPY_OUT_VENDOR)/lib64/meta_wifi_data.so \
     vendor/realme/salaa/proprietary/vendor/lib64/mt6785/libdpframework.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6785/libdpframework.so \
     vendor/realme/salaa/proprietary/vendor/lib64/mt6785/libmcv_runtime.mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6785/libmcv_runtime.mtk.so \
     vendor/realme/salaa/proprietary/vendor/lib64/mt6785/libmtk_drvb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6785/libmtk_drvb.so \
@@ -3097,7 +3086,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/salaa/proprietary/vendor/lib64/vendor.mediatek.hardware.pq@2.9.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.pq@2.9.so \
     vendor/realme/salaa/proprietary/vendor/lib64/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.videotelephony@1.0.so \
     vendor/realme/salaa/proprietary/vendor/lib64/vendor.oplus.hardware.commondcs@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oplus.hardware.commondcs@1.0.so \
-    vendor/realme/salaa/proprietary/vendor/lib64/vendor.oplus.hardware.wifi.supplicant@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oplus.hardware.wifi.supplicant@2.0.so \
     vendor/realme/salaa/proprietary/vendor/lib64/vendor.trustonic.tee.tui@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.trustonic.tee.tui@1.0.so \
     vendor/realme/salaa/proprietary/vendor/lib64/vendor.trustonic.tee@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.trustonic.tee@1.0.so \
     vendor/realme/salaa/proprietary/vendor/lib64/vendor.trustonic.tee@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.trustonic.tee@1.1.so
@@ -3129,7 +3117,6 @@ PRODUCT_PACKAGES += \
     manifest_android.hardware.drm@1.4-service.widevine \
     manifest_hwcomposer \
     manifest_media_c2_V1_1_default \
-    oplus_wifi_supplicant_device \
     manifest_oplusSensor \
     manifest_oplus_charger \
     manifest_oplus_fingerprint \
