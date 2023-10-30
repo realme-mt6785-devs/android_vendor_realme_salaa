@@ -182,6 +182,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/salaa/proprietary/odm/etc/camera/fwk_config.json:$(TARGET_COPY_OUT_ODM)/etc/camera/fwk_config.json \
     vendor/realme/salaa/proprietary/odm/etc/devices_config/devices_config.json:$(TARGET_COPY_OUT_ODM)/etc/devices_config/devices_config.json \
     vendor/realme/salaa/proprietary/odm/etc/init/init.oplus.reserve.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.oplus.reserve.rc \
+    vendor/realme/salaa/proprietary/odm/etc/init/init.pn8x.nfc.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.pn8x.nfc.rc \
     vendor/realme/salaa/proprietary/odm/etc/init/init.vendor.oplus.connectivity.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.vendor.oplus.connectivity.rc \
     vendor/realme/salaa/proprietary/odm/etc/init/vendor-oplus-hardware-engineer@1.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor-oplus-hardware-engineer@1.0-service.rc \
     vendor/realme/salaa/proprietary/odm/etc/init/vendor-oplus-hardware-transmessage@1.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor-oplus-hardware-transmessage@1.0-service.rc \
@@ -201,6 +202,8 @@ PRODUCT_COPY_FILES += \
     vendor/realme/salaa/proprietary/odm/etc/init/vendor.oplus.hardware.touch@1.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.touch@1.0-service.rc \
     vendor/realme/salaa/proprietary/odm/etc/init/vendor_engineermode.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor_engineermode.rc \
     vendor/realme/salaa/proprietary/odm/etc/jdi_nt_nt36672c_dsjm_eyeprotect_data.xml:$(TARGET_COPY_OUT_ODM)/etc/jdi_nt_nt36672c_dsjm_eyeprotect_data.xml \
+    vendor/realme/salaa/proprietary/vendor/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf \
+    vendor/realme/salaa/proprietary/odm/etc/libnfc-nxp-pnscr.conf:$(TARGET_COPY_OUT_ODM)/etc/libnfc-nxp-pnscr.conf \
     vendor/realme/salaa/proprietary/odm/etc/permissions/com.oplus.features.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/com.oplus.features.xml \
     vendor/realme/salaa/proprietary/odm/etc/permissions/vendor-oplus-hardware-biometrics-fingerprintpay.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/vendor-oplus-hardware-biometrics-fingerprintpay.xml \
     vendor/realme/salaa/proprietary/odm/etc/permissions/vendor-oplus-hardware-charger.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/vendor-oplus-hardware-charger.xml \
@@ -1472,7 +1475,11 @@ PRODUCT_COPY_FILES += \
     vendor/realme/salaa/proprietary/odm/lib/libgf_hal_G7.so:$(TARGET_COPY_OUT_ODM)/lib/libgf_hal_G7.so \
     vendor/realme/salaa/proprietary/odm/lib/liboemcrypto.so:$(TARGET_COPY_OUT_ODM)/lib/liboemcrypto.so \
     vendor/realme/salaa/proprietary/odm/lib/libormshalclient.so:$(TARGET_COPY_OUT_ODM)/lib/libormshalclient.so \
+    vendor/realme/salaa/proprietary/odm/lib/libpn553_fw.so:$(TARGET_COPY_OUT_ODM)/lib/libpn553_fw.so \
+    vendor/realme/salaa/proprietary/odm/lib/libpn557_fw.so:$(TARGET_COPY_OUT_ODM)/lib/libpn557_fw.so \
+    vendor/realme/salaa/proprietary/odm/lib/libpnscr2.so:$(TARGET_COPY_OUT_ODM)/lib/libpnscr2.so \
     vendor/realme/salaa/proprietary/odm/lib/librpmbengclient.so:$(TARGET_COPY_OUT_ODM)/lib/librpmbengclient.so \
+    vendor/realme/salaa/proprietary/odm/lib/libsn100u_fw.so:$(TARGET_COPY_OUT_ODM)/lib/libsn100u_fw.so \
     vendor/realme/salaa/proprietary/odm/lib/libswresample.so:$(TARGET_COPY_OUT_ODM)/lib/libswresample.so \
     vendor/realme/salaa/proprietary/odm/lib/libswscale.so:$(TARGET_COPY_OUT_ODM)/lib/libswscale.so \
     vendor/realme/salaa/proprietary/odm/lib/libtfavib.so:$(TARGET_COPY_OUT_ODM)/lib/libtfavib.so \
@@ -1556,6 +1563,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/salaa/proprietary/odm/lib64/libhwm-oplus.so:$(TARGET_COPY_OUT_ODM)/lib64/libhwm-oplus.so \
     vendor/realme/salaa/proprietary/odm/lib64/liboemcrypto.so:$(TARGET_COPY_OUT_ODM)/lib64/liboemcrypto.so \
     vendor/realme/salaa/proprietary/odm/lib64/libormshalclient.so:$(TARGET_COPY_OUT_ODM)/lib64/libormshalclient.so \
+    vendor/realme/salaa/proprietary/odm/lib64/libpnscr2.so:$(TARGET_COPY_OUT_ODM)/lib64/libpnscr2.so \
     vendor/realme/salaa/proprietary/odm/lib64/libremosaic_wrapper.so:$(TARGET_COPY_OUT_ODM)/lib64/libremosaic_wrapper.so \
     vendor/realme/salaa/proprietary/odm/lib64/libremosaiclib.so:$(TARGET_COPY_OUT_ODM)/lib64/libremosaiclib.so \
     vendor/realme/salaa/proprietary/odm/lib64/librpmbengclient.so:$(TARGET_COPY_OUT_ODM)/lib64/librpmbengclient.so \
