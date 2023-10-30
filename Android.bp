@@ -256,15 +256,6 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "power-mtk-default",
-	owner: "realme",
-	src: "proprietary/vendor/etc/vintf/manifest/power-mtk-default.xml",
-	filename_from_src: true,
-	sub_dir: "vintf/manifest",
-	soc_specific: true,
-}
-
-prebuilt_etc_xml {
 	name: "manifest_engineer",
 	owner: "realme",
 	src: "proprietary/odm/etc/vintf/manifest/manifest_engineer.xml",

@@ -217,6 +217,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/salaa/proprietary/odm/etc/permissions/vendor-oplus-hardware-touch.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/vendor-oplus-hardware-touch.xml \
     vendor/realme/salaa/proprietary/odm/etc/permissions/vendor-oplus-hardware-transmessage.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/vendor-oplus-hardware-transmessage.xml \
     vendor/realme/salaa/proprietary/odm/etc/permissions/vendor.oplus.hardware.rpmh-V20.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/vendor.oplus.hardware.rpmh-V20.xml \
+    vendor/realme/salaa/proprietary/odm/etc/powerhal/power_app_cfg.xml:$(TARGET_COPY_OUT_ODM)/etc/powerhal/power_app_cfg.xml \
     vendor/realme/salaa/proprietary/odm/etc/samsung2048_ana6705_samsung_eyeprotect_data.xml:$(TARGET_COPY_OUT_ODM)/etc/samsung2048_ana6705_samsung_eyeprotect_data.xml \
     vendor/realme/salaa/proprietary/odm/etc/samsung2048_ana6705_samsung_srgb_eyeprotect_data.xml:$(TARGET_COPY_OUT_ODM)/etc/samsung2048_ana6705_samsung_srgb_eyeprotect_data.xml \
     vendor/realme/salaa/proprietary/odm/etc/sensor/sensor_config.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/sensor_config.json \
@@ -3501,7 +3502,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/salaa/proprietary/vendor/lib/liboplus_platform_hwi.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboplus_platform_hwi.so \
     vendor/realme/salaa/proprietary/vendor/lib/liboppo_arcSoftBokehEngine_new.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboppo_arcSoftBokehEngine_new.so \
     vendor/realme/salaa/proprietary/vendor/lib/libperfctl_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libperfctl_vendor.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libpixelflinger.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpixelflinger.so \
     vendor/realme/salaa/proprietary/vendor/lib/libpkm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpkm.so \
     vendor/realme/salaa/proprietary/vendor/lib/libpower_timer.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpower_timer.so \
     vendor/realme/salaa/proprietary/vendor/lib/libpowerhal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpowerhal.so \
@@ -4643,7 +4643,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/salaa/proprietary/vendor/lib64/liboppo_arcSoftBokehEngine_new.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liboppo_arcSoftBokehEngine_new.so \
     vendor/realme/salaa/proprietary/vendor/lib64/liboppo_blank_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liboppo_blank_algo.so \
     vendor/realme/salaa/proprietary/vendor/lib64/libperfctl_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libperfctl_vendor.so \
-    vendor/realme/salaa/proprietary/vendor/lib64/libpixelflinger.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpixelflinger.so \
     vendor/realme/salaa/proprietary/vendor/lib64/libpkm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpkm.so \
     vendor/realme/salaa/proprietary/vendor/lib64/libpower_timer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpower_timer.so \
     vendor/realme/salaa/proprietary/vendor/lib64/libpowerhal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpowerhal.so \
@@ -4843,7 +4842,6 @@ PRODUCT_PACKAGES += \
     manifest_media_c2_V1_1_default \
     manifest_soter \
     oplus_wifi_supplicant_device \
-    power-mtk-default \
     manifest_engineer \
     manifest_oplusSensor \
     manifest_oplus_camera_slogan \
