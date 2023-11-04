@@ -10,12 +10,14 @@ PRODUCT_COPY_FILES += \
     vendor/realme/salaa/proprietary/bin/vtservice:$(TARGET_COPY_OUT_SYSTEM)/bin/vtservice \
     vendor/realme/salaa/proprietary/etc/init/init.vtservice.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/init.vtservice.rc \
     vendor/realme/salaa/proprietary/etc/init/kpoc_charger.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/kpoc_charger.rc \
+    vendor/realme/salaa/proprietary/lib/libem_support_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libem_support_jni.so \
     vendor/realme/salaa/proprietary/lib/libmtk_vt_wrapper.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmtk_vt_wrapper.so \
     vendor/realme/salaa/proprietary/lib/libmtkavenhancements.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmtkavenhancements.so \
     vendor/realme/salaa/proprietary/lib/libmtkperf_client.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmtkperf_client.so \
     vendor/realme/salaa/proprietary/lib/libvcodec_cap.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libvcodec_cap.so \
     vendor/realme/salaa/proprietary/lib/libvsim-adaptor-client.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libvsim-adaptor-client.so \
     vendor/realme/salaa/proprietary/lib64/libcomutils.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libcomutils.so \
+    vendor/realme/salaa/proprietary/lib64/libem_support_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libem_support_jni.so \
     vendor/realme/salaa/proprietary/lib64/libimsma.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libimsma.so \
     vendor/realme/salaa/proprietary/lib64/libimsma_adapt.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libimsma_adapt.so \
     vendor/realme/salaa/proprietary/lib64/libimsma_rtp.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libimsma_rtp.so \
@@ -1684,6 +1686,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/salaa/proprietary/vendor/bin/doeapp-memtester:$(TARGET_COPY_OUT_VENDOR)/bin/doeapp-memtester \
     vendor/realme/salaa/proprietary/vendor/bin/doeapp-sat:$(TARGET_COPY_OUT_VENDOR)/bin/doeapp-sat \
     vendor/realme/salaa/proprietary/vendor/bin/dtc_vendor:$(TARGET_COPY_OUT_VENDOR)/bin/dtc_vendor \
+    vendor/realme/salaa/proprietary/vendor/bin/em_hidl:$(TARGET_COPY_OUT_VENDOR)/bin/em_hidl \
     vendor/realme/salaa/proprietary/vendor/bin/epdg_wod:$(TARGET_COPY_OUT_VENDOR)/bin/epdg_wod \
     vendor/realme/salaa/proprietary/vendor/bin/factory:$(TARGET_COPY_OUT_VENDOR)/bin/factory \
     vendor/realme/salaa/proprietary/vendor/bin/fuelgauged:$(TARGET_COPY_OUT_VENDOR)/bin/fuelgauged \
@@ -2082,6 +2085,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/salaa/proprietary/vendor/etc/init/camerahalserver.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/camerahalserver.rc \
     vendor/realme/salaa/proprietary/vendor/etc/init/chipinfo_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/chipinfo_init.rc \
     vendor/realme/salaa/proprietary/vendor/etc/init/dmc_core.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dmc_core.rc \
+    vendor/realme/salaa/proprietary/vendor/etc/init/em_hidl_user.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/em_hidl_user.rc \
     vendor/realme/salaa/proprietary/vendor/etc/init/fuelgauged_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fuelgauged_init.rc \
     vendor/realme/salaa/proprietary/vendor/etc/init/fuelgauged_nvram_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fuelgauged_nvram_init.rc \
     vendor/realme/salaa/proprietary/vendor/etc/init/gsm0710muxd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/gsm0710muxd.rc \
@@ -4611,6 +4615,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/salaa/proprietary/vendor/lib64/vendor.trustonic.tee@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.trustonic.tee@1.1.so
 
 PRODUCT_PACKAGES += \
+    EngineerMode \
     ImsService \
     HotwordEnrollmentOKGoogleCORTEXM4 \
     SoterService \
