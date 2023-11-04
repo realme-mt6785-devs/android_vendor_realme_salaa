@@ -42,7 +42,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/salaa/proprietary/odm/bin/hw/vendor.oplus.hardware.cryptoeng@1.0-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.oplus.hardware.cryptoeng@1.0-service \
     vendor/realme/salaa/proprietary/odm/bin/hw/vendor.oplus.hardware.displaypanelfeature@1.0-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.oplus.hardware.displaypanelfeature@1.0-service \
     vendor/realme/salaa/proprietary/odm/bin/hw/vendor.oplus.hardware.gameopt@1.0-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.oplus.hardware.gameopt@1.0-service \
-    vendor/realme/salaa/proprietary/odm/bin/hw/vendor.oplus.hardware.misc@1.0-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.oplus.hardware.misc@1.0-service \
     vendor/realme/salaa/proprietary/odm/bin/hw/vendor.oplus.hardware.mtkmodemaci@1.0-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.oplus.hardware.mtkmodemaci@1.0-service \
     vendor/realme/salaa/proprietary/odm/bin/hw/vendor.oplus.hardware.oplusSensor@1.0-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.oplus.hardware.oplusSensor@1.0-service \
     vendor/realme/salaa/proprietary/odm/bin/hw/vendor.oplus.hardware.orms.ormsHalService@1.0-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.oplus.hardware.orms.ormsHalService@1.0-service \
@@ -180,7 +179,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/salaa/proprietary/odm/etc/camera/CameraHWConfiguration.config:$(TARGET_COPY_OUT_ODM)/etc/camera/CameraHWConfiguration.config \
     vendor/realme/salaa/proprietary/odm/etc/camera/dualcal_golden.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/dualcal_golden.bin \
     vendor/realme/salaa/proprietary/odm/etc/camera/fwk_config.json:$(TARGET_COPY_OUT_ODM)/etc/camera/fwk_config.json \
-    vendor/realme/salaa/proprietary/odm/etc/devices_config/devices_config.json:$(TARGET_COPY_OUT_ODM)/etc/devices_config/devices_config.json \
     vendor/realme/salaa/proprietary/odm/etc/init/init.oplus.reserve.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.oplus.reserve.rc \
     vendor/realme/salaa/proprietary/odm/etc/init/init.pn8x.nfc.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.pn8x.nfc.rc \
     vendor/realme/salaa/proprietary/odm/etc/init/init.vendor.oplus.connectivity.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.vendor.oplus.connectivity.rc \
@@ -192,7 +190,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/salaa/proprietary/odm/etc/init/vendor.oplus.hardware.cryptoeng@1.0-service_FDE.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.cryptoeng@1.0-service_FDE.rc \
     vendor/realme/salaa/proprietary/odm/etc/init/vendor.oplus.hardware.displaypanelfeature@1.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.displaypanelfeature@1.0-service.rc \
     vendor/realme/salaa/proprietary/odm/etc/init/vendor.oplus.hardware.gameopt@1.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.gameopt@1.0-service.rc \
-    vendor/realme/salaa/proprietary/odm/etc/init/vendor.oplus.hardware.misc@1.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.misc@1.0-service.rc \
     vendor/realme/salaa/proprietary/odm/etc/init/vendor.oplus.hardware.mtkmodemaci@1.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.mtkmodemaci@1.0-service.rc \
     vendor/realme/salaa/proprietary/odm/etc/init/vendor.oplus.hardware.oplusSensor@1.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.oplusSensor@1.0-service.rc \
     vendor/realme/salaa/proprietary/odm/etc/init/vendor.oplus.hardware.orms.ormsHalService@1.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.orms.ormsHalService@1.0-service.rc \
@@ -204,13 +201,11 @@ PRODUCT_COPY_FILES += \
     vendor/realme/salaa/proprietary/odm/etc/jdi_nt_nt36672c_dsjm_eyeprotect_data.xml:$(TARGET_COPY_OUT_ODM)/etc/jdi_nt_nt36672c_dsjm_eyeprotect_data.xml \
     vendor/realme/salaa/proprietary/vendor/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf \
     vendor/realme/salaa/proprietary/odm/etc/libnfc-nxp-pnscr.conf:$(TARGET_COPY_OUT_ODM)/etc/libnfc-nxp-pnscr.conf \
-    vendor/realme/salaa/proprietary/odm/etc/permissions/com.oplus.features.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/com.oplus.features.xml \
     vendor/realme/salaa/proprietary/odm/etc/permissions/vendor-oplus-hardware-biometrics-fingerprintpay.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/vendor-oplus-hardware-biometrics-fingerprintpay.xml \
     vendor/realme/salaa/proprietary/odm/etc/permissions/vendor-oplus-hardware-charger.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/vendor-oplus-hardware-charger.xml \
     vendor/realme/salaa/proprietary/odm/etc/permissions/vendor-oplus-hardware-cryptoeng.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/vendor-oplus-hardware-cryptoeng.xml \
     vendor/realme/salaa/proprietary/odm/etc/permissions/vendor-oplus-hardware-displaypanelfeature.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/vendor-oplus-hardware-displaypanelfeature.xml \
     vendor/realme/salaa/proprietary/odm/etc/permissions/vendor-oplus-hardware-engineer.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/vendor-oplus-hardware-engineer.xml \
-    vendor/realme/salaa/proprietary/odm/etc/permissions/vendor-oplus-hardware-misc.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/vendor-oplus-hardware-misc.xml \
     vendor/realme/salaa/proprietary/odm/etc/permissions/vendor-oplus-hardware-mtkmodemaci.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/vendor-oplus-hardware-mtkmodemaci.xml \
     vendor/realme/salaa/proprietary/odm/etc/permissions/vendor-oplus-hardware-stability-oproject.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/vendor-oplus-hardware-stability-oproject.xml \
     vendor/realme/salaa/proprietary/odm/etc/permissions/vendor-oplus-hardware-touch.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/vendor-oplus-hardware-touch.xml \
@@ -1499,7 +1494,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/salaa/proprietary/odm/lib/vendor.oplus.hardware.engineer@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.engineer@1.0.so \
     vendor/realme/salaa/proprietary/odm/lib/vendor.oplus.hardware.gameopt@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.gameopt@1.0.so \
     vendor/realme/salaa/proprietary/odm/lib/vendor.oplus.hardware.ims@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.ims@1.0.so \
-    vendor/realme/salaa/proprietary/odm/lib/vendor.oplus.hardware.misc@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.misc@1.0.so \
     vendor/realme/salaa/proprietary/odm/lib/vendor.oplus.hardware.mtkmodemaci@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.mtkmodemaci@1.0.so \
     vendor/realme/salaa/proprietary/odm/lib/vendor.oplus.hardware.oplusSensor@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.oplusSensor@1.0.so \
     vendor/realme/salaa/proprietary/odm/lib/vendor.oplus.hardware.orms.ormsHalService@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.orms.ormsHalService@1.0.so \
@@ -1586,7 +1580,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/salaa/proprietary/odm/lib64/vendor.oplus.hardware.engineer@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.engineer@1.0.so \
     vendor/realme/salaa/proprietary/odm/lib64/vendor.oplus.hardware.gameopt@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.gameopt@1.0.so \
     vendor/realme/salaa/proprietary/odm/lib64/vendor.oplus.hardware.ims@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.ims@1.0.so \
-    vendor/realme/salaa/proprietary/odm/lib64/vendor.oplus.hardware.misc@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.misc@1.0.so \
     vendor/realme/salaa/proprietary/odm/lib64/vendor.oplus.hardware.mtkmodemaci@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.mtkmodemaci@1.0.so \
     vendor/realme/salaa/proprietary/odm/lib64/vendor.oplus.hardware.oplusSensor@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.oplusSensor@1.0.so \
     vendor/realme/salaa/proprietary/odm/lib64/vendor.oplus.hardware.orms.ormsHalService@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.orms.ormsHalService@1.0.so \
@@ -1687,13 +1680,10 @@ PRODUCT_COPY_FILES += \
     vendor/realme/salaa/proprietary/vendor/bin/ccci_rpcd:$(TARGET_COPY_OUT_VENDOR)/bin/ccci_rpcd \
     vendor/realme/salaa/proprietary/vendor/bin/charon:$(TARGET_COPY_OUT_VENDOR)/bin/charon \
     vendor/realme/salaa/proprietary/vendor/bin/chipinfo:$(TARGET_COPY_OUT_VENDOR)/bin/chipinfo \
-    vendor/realme/salaa/proprietary/vendor/bin/dconfig:$(TARGET_COPY_OUT_VENDOR)/bin/dconfig \
-    vendor/realme/salaa/proprietary/vendor/bin/dexecutor:$(TARGET_COPY_OUT_VENDOR)/bin/dexecutor \
     vendor/realme/salaa/proprietary/vendor/bin/dmc_core:$(TARGET_COPY_OUT_VENDOR)/bin/dmc_core \
     vendor/realme/salaa/proprietary/vendor/bin/doeapp-memtester:$(TARGET_COPY_OUT_VENDOR)/bin/doeapp-memtester \
     vendor/realme/salaa/proprietary/vendor/bin/doeapp-sat:$(TARGET_COPY_OUT_VENDOR)/bin/doeapp-sat \
     vendor/realme/salaa/proprietary/vendor/bin/dtc_vendor:$(TARGET_COPY_OUT_VENDOR)/bin/dtc_vendor \
-    vendor/realme/salaa/proprietary/vendor/bin/em_hidl:$(TARGET_COPY_OUT_VENDOR)/bin/em_hidl \
     vendor/realme/salaa/proprietary/vendor/bin/epdg_wod:$(TARGET_COPY_OUT_VENDOR)/bin/epdg_wod \
     vendor/realme/salaa/proprietary/vendor/bin/factory:$(TARGET_COPY_OUT_VENDOR)/bin/factory \
     vendor/realme/salaa/proprietary/vendor/bin/fuelgauged:$(TARGET_COPY_OUT_VENDOR)/bin/fuelgauged \
@@ -1734,7 +1724,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/salaa/proprietary/vendor/bin/mcDriverDaemon:$(TARGET_COPY_OUT_VENDOR)/bin/mcDriverDaemon \
     vendor/realme/salaa/proprietary/vendor/bin/md_monitor:$(TARGET_COPY_OUT_VENDOR)/bin/md_monitor \
     vendor/realme/salaa/proprietary/vendor/bin/md_monitor_ctrl:$(TARGET_COPY_OUT_VENDOR)/bin/md_monitor_ctrl \
-    vendor/realme/salaa/proprietary/vendor/bin/meta_tst:$(TARGET_COPY_OUT_VENDOR)/bin/meta_tst \
     vendor/realme/salaa/proprietary/vendor/bin/mnld:$(TARGET_COPY_OUT_VENDOR)/bin/mnld \
     vendor/realme/salaa/proprietary/vendor/bin/mrdump_tool:$(TARGET_COPY_OUT_VENDOR)/bin/mrdump_tool \
     vendor/realme/salaa/proprietary/vendor/bin/mt6660_calibration:$(TARGET_COPY_OUT_VENDOR)/bin/mt6660_calibration \
@@ -2093,7 +2082,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/salaa/proprietary/vendor/etc/init/camerahalserver.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/camerahalserver.rc \
     vendor/realme/salaa/proprietary/vendor/etc/init/chipinfo_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/chipinfo_init.rc \
     vendor/realme/salaa/proprietary/vendor/etc/init/dmc_core.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dmc_core.rc \
-    vendor/realme/salaa/proprietary/vendor/etc/init/em_hidl_user.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/em_hidl_user.rc \
     vendor/realme/salaa/proprietary/vendor/etc/init/fuelgauged_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fuelgauged_init.rc \
     vendor/realme/salaa/proprietary/vendor/etc/init/fuelgauged_nvram_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fuelgauged_nvram_init.rc \
     vendor/realme/salaa/proprietary/vendor/etc/init/gsm0710muxd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/gsm0710muxd.rc \
@@ -2152,7 +2140,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/salaa/proprietary/vendor/etc/mpe.conf:$(TARGET_COPY_OUT_VENDOR)/etc/mpe.conf \
     vendor/realme/salaa/proprietary/vendor/etc/mtk_omx_core.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/mtk_omx_core.cfg \
     vendor/realme/salaa/proprietary/vendor/etc/mtk_platform_codecs_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mtk_platform_codecs_config.xml \
-    vendor/realme/salaa/proprietary/vendor/etc/ncf_pack.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/ncf_pack.ncf \
     vendor/realme/salaa/proprietary/vendor/etc/nhw:$(TARGET_COPY_OUT_VENDOR)/etc/nhw \
     vendor/realme/salaa/proprietary/vendor/etc/oplus_avb.pubkey:$(TARGET_COPY_OUT_VENDOR)/etc/oplus_avb.pubkey \
     vendor/realme/salaa/proprietary/vendor/etc/seccomp_policy/android.hardware.media.c2@1.2-mediatek-seccomp-policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/android.hardware.media.c2@1.2-mediatek-seccomp-policy \
@@ -3244,7 +3231,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/salaa/proprietary/vendor/lib/libladder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libladder.so \
     vendor/realme/salaa/proprietary/vendor/lib/liblpcnr.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblpcnr.so \
     vendor/realme/salaa/proprietary/vendor/lib/libmfllcore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmfllcore.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libminiui.so:$(TARGET_COPY_OUT_VENDOR)/lib/libminiui.so \
     vendor/realme/salaa/proprietary/vendor/lib/libmml.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmml.so \
     vendor/realme/salaa/proprietary/vendor/lib/libmmprofile.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmprofile.so \
     vendor/realme/salaa/proprietary/vendor/lib/libmnetlink_v104.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmnetlink_v104.so \
@@ -4343,9 +4329,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/salaa/proprietary/vendor/lib64/liblpcnr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblpcnr.so \
     vendor/realme/salaa/proprietary/vendor/lib64/libmegface_rt_bokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmegface_rt_bokeh.so \
     vendor/realme/salaa/proprietary/vendor/lib64/libmfllcore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmfllcore.so \
-    vendor/realme/salaa/proprietary/vendor/lib64/libminiui.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libminiui.so \
     vendor/realme/salaa/proprietary/vendor/lib64/libmipc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmipc.so \
-    vendor/realme/salaa/proprietary/vendor/lib64/libml_util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libml_util.so \
     vendor/realme/salaa/proprietary/vendor/lib64/libmmagent.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmagent.so \
     vendor/realme/salaa/proprietary/vendor/lib64/libmml.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmml.so \
     vendor/realme/salaa/proprietary/vendor/lib64/libmmprofile.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmprofile.so \
@@ -4664,7 +4648,6 @@ PRODUCT_PACKAGES += \
     manifest_oplus_fingerprint \
     manifest_oplus_gameopt \
     manifest_oplus_ifaa \
-    manifest_oplus_misc \
     manifest_oplus_mtkmodemaci \
     manifest_oplus_orms \
     manifest_oplus_performance \
