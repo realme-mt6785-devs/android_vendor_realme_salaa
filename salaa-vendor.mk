@@ -1481,7 +1481,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/salaa/proprietary/odm/lib/libswscale.so:$(TARGET_COPY_OUT_ODM)/lib/libswscale.so \
     vendor/realme/salaa/proprietary/odm/lib/libtfavib.so:$(TARGET_COPY_OUT_ODM)/lib/libtfavib.so \
     vendor/realme/salaa/proprietary/odm/lib/libtrustonic_keybox_ca.so:$(TARGET_COPY_OUT_ODM)/lib/libtrustonic_keybox_ca.so \
-    vendor/realme/salaa/proprietary/odm/lib/libui.so:$(TARGET_COPY_OUT_ODM)/lib/libui.so \
     vendor/realme/salaa/proprietary/odm/lib/soundfx/awinic.haptic.effect.so:$(TARGET_COPY_OUT_ODM)/lib/soundfx/awinic.haptic.effect.so \
     vendor/realme/salaa/proprietary/odm/lib/soundfx/libhaptic_effect.so:$(TARGET_COPY_OUT_ODM)/lib/soundfx/libhaptic_effect.so \
     vendor/realme/salaa/proprietary/odm/lib/vendor.oplus.hardware.appradio@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.appradio@1.0.so \
@@ -1550,7 +1549,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/salaa/proprietary/odm/lib64/libdav1d.so.4:$(TARGET_COPY_OUT_ODM)/lib64/libdav1d.so.4 \
     vendor/realme/salaa/proprietary/odm/lib64/libdpservice.so:$(TARGET_COPY_OUT_ODM)/lib64/libdpservice.so \
     vendor/realme/salaa/proprietary/odm/lib64/libegis_hal.so:$(TARGET_COPY_OUT_ODM)/lib64/libegis_hal.so \
-    vendor/realme/salaa/proprietary/odm/lib64/libffmpeg_utils.so:$(TARGET_COPY_OUT_ODM)/lib64/libffmpeg_utils.so \
     vendor/realme/salaa/proprietary/odm/lib64/libgf_hal_G2.so:$(TARGET_COPY_OUT_ODM)/lib64/libgf_hal_G2.so \
     vendor/realme/salaa/proprietary/odm/lib64/libgf_hal_G3.so:$(TARGET_COPY_OUT_ODM)/lib64/libgf_hal_G3.so \
     vendor/realme/salaa/proprietary/odm/lib64/libgf_hal_G5.so:$(TARGET_COPY_OUT_ODM)/lib64/libgf_hal_G5.so \
@@ -1568,7 +1566,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/salaa/proprietary/odm/lib64/libswscale.so:$(TARGET_COPY_OUT_ODM)/lib64/libswscale.so \
     vendor/realme/salaa/proprietary/odm/lib64/libtfavib.so:$(TARGET_COPY_OUT_ODM)/lib64/libtfavib.so \
     vendor/realme/salaa/proprietary/odm/lib64/libtrustonic_keybox_ca.so:$(TARGET_COPY_OUT_ODM)/lib64/libtrustonic_keybox_ca.so \
-    vendor/realme/salaa/proprietary/odm/lib64/libui.so:$(TARGET_COPY_OUT_ODM)/lib64/libui.so \
     vendor/realme/salaa/proprietary/odm/lib64/oplus.sensors.ssc.so:$(TARGET_COPY_OUT_ODM)/lib64/oplus.sensors.ssc.so \
     vendor/realme/salaa/proprietary/odm/lib64/vendor.oplus.hardware.appradio@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.appradio@1.0.so \
     vendor/realme/salaa/proprietary/odm/lib64/vendor.oplus.hardware.biometrics.fingerprint@2.1.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.biometrics.fingerprint@2.1.so \
@@ -2148,7 +2145,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/salaa/proprietary/vendor/etc/mtk_platform_codecs_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mtk_platform_codecs_config.xml \
     vendor/realme/salaa/proprietary/vendor/etc/nhw:$(TARGET_COPY_OUT_VENDOR)/etc/nhw \
     vendor/realme/salaa/proprietary/vendor/etc/oplus_avb.pubkey:$(TARGET_COPY_OUT_VENDOR)/etc/oplus_avb.pubkey \
-    vendor/realme/salaa/proprietary/vendor/etc/seccomp_policy/android.hardware.media.c2@1.2-mediatek-seccomp-policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/android.hardware.media.c2@1.2-mediatek-seccomp-policy \
     vendor/realme/salaa/proprietary/vendor/etc/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
     vendor/realme/salaa/proprietary/vendor/etc/slp_conf:$(TARGET_COPY_OUT_VENDOR)/etc/slp_conf \
     vendor/realme/salaa/proprietary/vendor/etc/smsdbvisitor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/smsdbvisitor.xml \
@@ -3154,7 +3150,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/salaa/proprietary/vendor/lib/libchromanr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromanr.so \
     vendor/realme/salaa/proprietary/vendor/lib/libcmdl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcmdl.so \
     vendor/realme/salaa/proprietary/vendor/lib/libcmdl_ndk.mtk.vndk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcmdl_ndk.mtk.vndk.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libcodec2_hidl-mtk@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_hidl-mtk@1.0.so \
     vendor/realme/salaa/proprietary/vendor/lib/libcodec2_mtk_c2store.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_mtk_c2store.so \
     vendor/realme/salaa/proprietary/vendor/lib/libcodec2_mtk_vdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_mtk_vdec.so \
     vendor/realme/salaa/proprietary/vendor/lib/libcodec2_mtk_venc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_mtk_venc.so \
@@ -3164,7 +3159,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/salaa/proprietary/vendor/lib/libcodec2_soft_mtk_mp3dec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_soft_mtk_mp3dec.so \
     vendor/realme/salaa/proprietary/vendor/lib/libcodec2_soft_mtk_msadpcmdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_soft_mtk_msadpcmdec.so \
     vendor/realme/salaa/proprietary/vendor/lib/libcodec2_soft_mtk_wmadec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_soft_mtk_wmadec.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libcodec2_vndk-mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_vndk-mtk.so \
     vendor/realme/salaa/proprietary/vendor/lib/libcodec2_vpp_qt_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_vpp_qt_plugin.so \
     vendor/realme/salaa/proprietary/vendor/lib/libcodec2_vpp_rs_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_vpp_rs_plugin.so \
     vendor/realme/salaa/proprietary/vendor/lib/libconnfem.so:$(TARGET_COPY_OUT_VENDOR)/lib/libconnfem.so \
@@ -3324,6 +3318,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/salaa/proprietary/vendor/lib/librgbwlightsensor.so:$(TARGET_COPY_OUT_VENDOR)/lib/librgbwlightsensor.so \
     vendor/realme/salaa/proprietary/vendor/lib/librt_extamp_intf.so:$(TARGET_COPY_OUT_VENDOR)/lib/librt_extamp_intf.so \
     vendor/realme/salaa/proprietary/vendor/lib/libscltm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscltm.so \
+    vendor/realme/salaa/proprietary/vendor/lib/libsensorndkbridge-hidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensorndkbridge-hidl.so \
     vendor/realme/salaa/proprietary/vendor/lib/libsimaka.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsimaka.so \
     vendor/realme/salaa/proprietary/vendor/lib/libsimlock.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsimlock.so \
     vendor/realme/salaa/proprietary/vendor/lib/libsimmelock.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsimmelock.so \
@@ -4120,7 +4115,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/salaa/proprietary/vendor/lib64/libMtkSpeechEnh.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libMtkSpeechEnh.so \
     vendor/realme/salaa/proprietary/vendor/lib64/libNoFpsActor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libNoFpsActor.so \
     vendor/realme/salaa/proprietary/vendor/lib64/libOpenCL.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOpenCL.so \
-    vendor/realme/salaa/proprietary/vendor/lib64/libPerfectlyClearCrux.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libPerfectlyClearCrux.so \
     vendor/realme/salaa/proprietary/vendor/lib64/libPolarrRender.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libPolarrRender.so \
     vendor/realme/salaa/proprietary/vendor/lib64/libSQLiteModule_VER_ALL.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSQLiteModule_VER_ALL.so \
     vendor/realme/salaa/proprietary/vendor/lib64/libSonyIMX230PdafLibrary.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSonyIMX230PdafLibrary.so \
@@ -4250,7 +4244,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/salaa/proprietary/vendor/lib64/libchromanr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libchromanr.so \
     vendor/realme/salaa/proprietary/vendor/lib64/libcmdl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcmdl.so \
     vendor/realme/salaa/proprietary/vendor/lib64/libcmdl_ndk.mtk.vndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcmdl_ndk.mtk.vndk.so \
-    vendor/realme/salaa/proprietary/vendor/lib64/libcodec2_hidl-mtk@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_hidl-mtk@1.0.so \
     vendor/realme/salaa/proprietary/vendor/lib64/libcodec2_mtk_c2store.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_mtk_c2store.so \
     vendor/realme/salaa/proprietary/vendor/lib64/libcodec2_mtk_vdec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_mtk_vdec.so \
     vendor/realme/salaa/proprietary/vendor/lib64/libcodec2_mtk_venc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_mtk_venc.so \
@@ -4260,7 +4253,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/salaa/proprietary/vendor/lib64/libcodec2_soft_mtk_mp3dec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_soft_mtk_mp3dec.so \
     vendor/realme/salaa/proprietary/vendor/lib64/libcodec2_soft_mtk_msadpcmdec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_soft_mtk_msadpcmdec.so \
     vendor/realme/salaa/proprietary/vendor/lib64/libcodec2_soft_mtk_wmadec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_soft_mtk_wmadec.so \
-    vendor/realme/salaa/proprietary/vendor/lib64/libcodec2_vndk-mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_vndk-mtk.so \
     vendor/realme/salaa/proprietary/vendor/lib64/libcodec2_vpp_qt_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_vpp_qt_plugin.so \
     vendor/realme/salaa/proprietary/vendor/lib64/libcodec2_vpp_rs_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_vpp_rs_plugin.so \
     vendor/realme/salaa/proprietary/vendor/lib64/libcomposer_ext.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcomposer_ext.so \
@@ -4465,6 +4457,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/salaa/proprietary/vendor/lib64/librt_extamp_intf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librt_extamp_intf.so \
     vendor/realme/salaa/proprietary/vendor/lib64/libscltm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscltm.so \
     vendor/realme/salaa/proprietary/vendor/lib64/libsensor_custom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensor_custom.so \
+    vendor/realme/salaa/proprietary/vendor/lib64/libsensorndkbridge-hidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensorndkbridge-hidl.so \
     vendor/realme/salaa/proprietary/vendor/lib64/libsimaka.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsimaka.so \
     vendor/realme/salaa/proprietary/vendor/lib64/libsimlock.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsimlock.so \
     vendor/realme/salaa/proprietary/vendor/lib64/libsimmelock.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsimmelock.so \
@@ -4472,7 +4465,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/salaa/proprietary/vendor/lib64/libspeechparser_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libspeechparser_vendor.so \
     vendor/realme/salaa/proprietary/vendor/lib64/libssl-md.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libssl-md.so \
     vendor/realme/salaa/proprietary/vendor/lib64/libssl-ss.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libssl-ss.so \
-    vendor/realme/salaa/proprietary/vendor/lib64/libstagefright_bufferpool@2.0.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstagefright_bufferpool@2.0.1.so \
     vendor/realme/salaa/proprietary/vendor/lib64/libstagefrighthw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstagefrighthw.so \
     vendor/realme/salaa/proprietary/vendor/lib64/libstereoinfoaccessor_vsdof.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstereoinfoaccessor_vsdof.so \
     vendor/realme/salaa/proprietary/vendor/lib64/libstface_fd_api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstface_fd_api.so \
