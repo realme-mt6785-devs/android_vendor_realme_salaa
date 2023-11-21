@@ -37,7 +37,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/salaa/proprietary/lib64/libvt_avsync.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libvt_avsync.so \
     vendor/realme/salaa/proprietary/odm/bin/engineer_vendor_shell.sh:$(TARGET_COPY_OUT_ODM)/bin/engineer_vendor_shell.sh \
     vendor/realme/salaa/proprietary/odm/bin/hw/vendor-oplus-hardware-engineer@1.0-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor-oplus-hardware-engineer@1.0-service \
-    vendor/realme/salaa/proprietary/odm/bin/hw/vendor-oplus-hardware-transmessage@1.0-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor-oplus-hardware-transmessage@1.0-service \
     vendor/realme/salaa/proprietary/odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service \
     vendor/realme/salaa/proprietary/odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprintpay@1.0-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.oplus.hardware.biometrics.fingerprintpay@1.0-service \
     vendor/realme/salaa/proprietary/odm/bin/hw/vendor.oplus.hardware.charger@1.0-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.oplus.hardware.charger@1.0-service \
@@ -184,7 +183,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/salaa/proprietary/odm/etc/init/init.pn8x.nfc.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.pn8x.nfc.rc \
     vendor/realme/salaa/proprietary/odm/etc/init/init.vendor.oplus.connectivity.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.vendor.oplus.connectivity.rc \
     vendor/realme/salaa/proprietary/odm/etc/init/vendor-oplus-hardware-engineer@1.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor-oplus-hardware-engineer@1.0-service.rc \
-    vendor/realme/salaa/proprietary/odm/etc/init/vendor-oplus-hardware-transmessage@1.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor-oplus-hardware-transmessage@1.0-service.rc \
     vendor/realme/salaa/proprietary/odm/etc/init/vendor.oplus.hardware.biometrics.fingerprint@2.1-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.biometrics.fingerprint@2.1-service.rc \
     vendor/realme/salaa/proprietary/odm/etc/init/vendor.oplus.hardware.biometrics.fingerprintpay@1.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.biometrics.fingerprintpay@1.0-service.rc \
     vendor/realme/salaa/proprietary/odm/etc/init/vendor.oplus.hardware.charger@1.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.charger@1.0-service.rc \
@@ -208,7 +206,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/salaa/proprietary/odm/etc/permissions/vendor-oplus-hardware-engineer.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/vendor-oplus-hardware-engineer.xml \
     vendor/realme/salaa/proprietary/odm/etc/permissions/vendor-oplus-hardware-mtkmodemaci.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/vendor-oplus-hardware-mtkmodemaci.xml \
     vendor/realme/salaa/proprietary/odm/etc/permissions/vendor-oplus-hardware-stability-oproject.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/vendor-oplus-hardware-stability-oproject.xml \
-    vendor/realme/salaa/proprietary/odm/etc/permissions/vendor-oplus-hardware-transmessage.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/vendor-oplus-hardware-transmessage.xml \
     vendor/realme/salaa/proprietary/odm/etc/permissions/vendor.oplus.hardware.rpmh-V20.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/vendor.oplus.hardware.rpmh-V20.xml \
     vendor/realme/salaa/proprietary/odm/etc/powerhal/power_app_cfg.xml:$(TARGET_COPY_OUT_ODM)/etc/powerhal/power_app_cfg.xml \
     vendor/realme/salaa/proprietary/odm/etc/samsung2048_ana6705_samsung_eyeprotect_data.xml:$(TARGET_COPY_OUT_ODM)/etc/samsung2048_ana6705_samsung_eyeprotect_data.xml \
@@ -360,7 +357,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/salaa/proprietary/odm/lib/vendor.oplus.hardware.rpmh@2.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.rpmh@2.0.so \
     vendor/realme/salaa/proprietary/odm/lib/vendor.oplus.hardware.stability.oplus_project@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.stability.oplus_project@1.0.so \
     vendor/realme/salaa/proprietary/odm/lib/vendor.oplus.hardware.subsys@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.subsys@1.0.so \
-    vendor/realme/salaa/proprietary/odm/lib/vendor.oplus.hardware.transmessage@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.transmessage@1.0.so \
     vendor/realme/salaa/proprietary/odm/lib/vendor.oplus.hardware.wifi@1.1.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.wifi@1.1.so \
     vendor/realme/salaa/proprietary/odm/lib64/anc.hal.so:$(TARGET_COPY_OUT_ODM)/lib64/anc.hal.so \
     vendor/realme/salaa/proprietary/odm/lib64/hw/fingerprint.focaltech.default.so:$(TARGET_COPY_OUT_ODM)/lib64/hw/fingerprint.focaltech.default.so \
@@ -443,7 +439,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/salaa/proprietary/odm/lib64/vendor.oplus.hardware.rpmh@2.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.rpmh@2.0.so \
     vendor/realme/salaa/proprietary/odm/lib64/vendor.oplus.hardware.stability.oplus_project@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.stability.oplus_project@1.0.so \
     vendor/realme/salaa/proprietary/odm/lib64/vendor.oplus.hardware.subsys@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.subsys@1.0.so \
-    vendor/realme/salaa/proprietary/odm/lib64/vendor.oplus.hardware.transmessage@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.transmessage@1.0.so \
     vendor/realme/salaa/proprietary/odm/lib64/vendor.oplus.hardware.wifi@1.1.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.wifi@1.1.so \
     vendor/realme/salaa/proprietary/odm/vendor/app/mcRegistry/030b0000000000000000000000000000.drbin:$(TARGET_COPY_OUT_ODM)/vendor/app/mcRegistry/030b0000000000000000000000000000.drbin \
     vendor/realme/salaa/proprietary/odm/vendor/app/mcRegistry/030b0000000000000000000000000000.tlbin:$(TARGET_COPY_OUT_ODM)/vendor/app/mcRegistry/030b0000000000000000000000000000.tlbin \
