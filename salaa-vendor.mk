@@ -36,7 +36,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/salaa/proprietary/odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service \
     vendor/realme/salaa/proprietary/odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprintpay@1.0-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.oplus.hardware.biometrics.fingerprintpay@1.0-service \
     vendor/realme/salaa/proprietary/odm/bin/hw/vendor.oplus.hardware.charger@1.0-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.oplus.hardware.charger@1.0-service \
-    vendor/realme/salaa/proprietary/odm/bin/hw/vendor.oplus.hardware.cryptoeng@1.0-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.oplus.hardware.cryptoeng@1.0-service \
     vendor/realme/salaa/proprietary/odm/bin/hw/vendor.oplus.hardware.displaypanelfeature@1.0-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.oplus.hardware.displaypanelfeature@1.0-service \
     vendor/realme/salaa/proprietary/odm/bin/hw/vendor.oplus.hardware.mtkmodemaci@1.0-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.oplus.hardware.mtkmodemaci@1.0-service \
     vendor/realme/salaa/proprietary/odm/bin/hw/vendor.oplus.hardware.oplusSensor@1.0-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.oplus.hardware.oplusSensor@1.0-service \
@@ -179,7 +178,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/salaa/proprietary/odm/etc/init/vendor.oplus.hardware.biometrics.fingerprint@2.1-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.biometrics.fingerprint@2.1-service.rc \
     vendor/realme/salaa/proprietary/odm/etc/init/vendor.oplus.hardware.biometrics.fingerprintpay@1.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.biometrics.fingerprintpay@1.0-service.rc \
     vendor/realme/salaa/proprietary/odm/etc/init/vendor.oplus.hardware.charger@1.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.charger@1.0-service.rc \
-    vendor/realme/salaa/proprietary/odm/etc/init/vendor.oplus.hardware.cryptoeng@1.0-service_FDE.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.cryptoeng@1.0-service_FDE.rc \
     vendor/realme/salaa/proprietary/odm/etc/init/vendor.oplus.hardware.displaypanelfeature@1.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.displaypanelfeature@1.0-service.rc \
     vendor/realme/salaa/proprietary/odm/etc/init/vendor.oplus.hardware.mtkmodemaci@1.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.mtkmodemaci@1.0-service.rc \
     vendor/realme/salaa/proprietary/odm/etc/init/vendor.oplus.hardware.oplusSensor@1.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.oplusSensor@1.0-service.rc \
@@ -191,7 +189,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/salaa/proprietary/odm/etc/libnfc-nxp-pnscr.conf:$(TARGET_COPY_OUT_ODM)/etc/libnfc-nxp-pnscr.conf \
     vendor/realme/salaa/proprietary/odm/etc/permissions/vendor-oplus-hardware-biometrics-fingerprintpay.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/vendor-oplus-hardware-biometrics-fingerprintpay.xml \
     vendor/realme/salaa/proprietary/odm/etc/permissions/vendor-oplus-hardware-charger.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/vendor-oplus-hardware-charger.xml \
-    vendor/realme/salaa/proprietary/odm/etc/permissions/vendor-oplus-hardware-cryptoeng.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/vendor-oplus-hardware-cryptoeng.xml \
     vendor/realme/salaa/proprietary/odm/etc/permissions/vendor-oplus-hardware-displaypanelfeature.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/vendor-oplus-hardware-displaypanelfeature.xml \
     vendor/realme/salaa/proprietary/odm/etc/permissions/vendor-oplus-hardware-engineer.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/vendor-oplus-hardware-engineer.xml \
     vendor/realme/salaa/proprietary/odm/etc/permissions/vendor-oplus-hardware-mtkmodemaci.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/vendor-oplus-hardware-mtkmodemaci.xml \
@@ -331,7 +328,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/salaa/proprietary/odm/lib/vendor.oplus.hardware.camera.slogan@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.camera.slogan@1.0.so \
     vendor/realme/salaa/proprietary/odm/lib/vendor.oplus.hardware.charger@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.charger@1.0.so \
     vendor/realme/salaa/proprietary/odm/lib/vendor.oplus.hardware.commondcs@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.commondcs@1.0.so \
-    vendor/realme/salaa/proprietary/odm/lib/vendor.oplus.hardware.cryptoeng@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.cryptoeng@1.0.so \
     vendor/realme/salaa/proprietary/odm/lib/vendor.oplus.hardware.displaypanelfeature@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.displaypanelfeature@1.0.so \
     vendor/realme/salaa/proprietary/odm/lib/vendor.oplus.hardware.engcamera@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.engcamera@1.0.so \
     vendor/realme/salaa/proprietary/odm/lib/vendor.oplus.hardware.engineer@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.engineer@1.0.so \
@@ -411,7 +407,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/salaa/proprietary/odm/lib64/vendor.oplus.hardware.camera.slogan@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.camera.slogan@1.0.so \
     vendor/realme/salaa/proprietary/odm/lib64/vendor.oplus.hardware.charger@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.charger@1.0.so \
     vendor/realme/salaa/proprietary/odm/lib64/vendor.oplus.hardware.commondcs@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.commondcs@1.0.so \
-    vendor/realme/salaa/proprietary/odm/lib64/vendor.oplus.hardware.cryptoeng@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.cryptoeng@1.0.so \
     vendor/realme/salaa/proprietary/odm/lib64/vendor.oplus.hardware.displaypanelfeature@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.displaypanelfeature@1.0.so \
     vendor/realme/salaa/proprietary/odm/lib64/vendor.oplus.hardware.engcamera@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.engcamera@1.0.so \
     vendor/realme/salaa/proprietary/odm/lib64/vendor.oplus.hardware.engineer@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.engineer@1.0.so \
@@ -3350,7 +3345,6 @@ PRODUCT_PACKAGES += \
     manifest_oplusSensor \
     manifest_oplus_camera_slogan \
     manifest_oplus_charger \
-    manifest_oplus_cryptoeng \
     manifest_oplus_displaypanelfeature \
     manifest_oplus_fingerprint \
     manifest_oplus_ifaa \
