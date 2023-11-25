@@ -166,8 +166,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/salaa/proprietary/odm/etc/audio/test_path/mixer_paths.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/test_path/mixer_paths.xml \
     vendor/realme/salaa/proprietary/odm/etc/audio/tone.wav:$(TARGET_COPY_OUT_ODM)/etc/audio/tone.wav \
     vendor/realme/salaa/proprietary/odm/etc/audio_effects.xml:$(TARGET_COPY_OUT_ODM)/etc/audio_effects.xml \
-    vendor/realme/salaa/proprietary/odm/etc/boe_nt37800_2048_nt37800_eyeprotect_data.xml:$(TARGET_COPY_OUT_ODM)/etc/boe_nt37800_2048_nt37800_eyeprotect_data.xml \
-    vendor/realme/salaa/proprietary/odm/etc/boe_nt37800_2048_nt37800_srgb_eyeprotect_data.xml:$(TARGET_COPY_OUT_ODM)/etc/boe_nt37800_2048_nt37800_srgb_eyeprotect_data.xml \
     vendor/realme/salaa/proprietary/odm/etc/camera/CameraHWConfiguration.config:$(TARGET_COPY_OUT_ODM)/etc/camera/CameraHWConfiguration.config \
     vendor/realme/salaa/proprietary/odm/etc/camera/dualcal_golden.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/dualcal_golden.bin \
     vendor/realme/salaa/proprietary/odm/etc/camera/fwk_config.json:$(TARGET_COPY_OUT_ODM)/etc/camera/fwk_config.json \
@@ -184,7 +182,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/salaa/proprietary/odm/etc/init/vendor.oplus.hardware.orms.ormsHalService@1.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.orms.ormsHalService@1.0-service.rc \
     vendor/realme/salaa/proprietary/odm/etc/init/vendor.oplus.hardware.rpmh@2.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.rpmh@2.0-service.rc \
     vendor/realme/salaa/proprietary/odm/etc/init/vendor_engineermode.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor_engineermode.rc \
-    vendor/realme/salaa/proprietary/odm/etc/jdi_nt_nt36672c_dsjm_eyeprotect_data.xml:$(TARGET_COPY_OUT_ODM)/etc/jdi_nt_nt36672c_dsjm_eyeprotect_data.xml \
     vendor/realme/salaa/proprietary/vendor/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf \
     vendor/realme/salaa/proprietary/odm/etc/libnfc-nxp-pnscr.conf:$(TARGET_COPY_OUT_ODM)/etc/libnfc-nxp-pnscr.conf \
     vendor/realme/salaa/proprietary/odm/etc/permissions/vendor-oplus-hardware-biometrics-fingerprintpay.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/vendor-oplus-hardware-biometrics-fingerprintpay.xml \
@@ -194,14 +191,9 @@ PRODUCT_COPY_FILES += \
     vendor/realme/salaa/proprietary/odm/etc/permissions/vendor-oplus-hardware-mtkmodemaci.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/vendor-oplus-hardware-mtkmodemaci.xml \
     vendor/realme/salaa/proprietary/odm/etc/permissions/vendor.oplus.hardware.rpmh-V20.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/vendor.oplus.hardware.rpmh-V20.xml \
     vendor/realme/salaa/proprietary/odm/etc/powerhal/power_app_cfg.xml:$(TARGET_COPY_OUT_ODM)/etc/powerhal/power_app_cfg.xml \
-    vendor/realme/salaa/proprietary/odm/etc/samsung2048_ana6705_samsung_eyeprotect_data.xml:$(TARGET_COPY_OUT_ODM)/etc/samsung2048_ana6705_samsung_eyeprotect_data.xml \
-    vendor/realme/salaa/proprietary/odm/etc/samsung2048_ana6705_samsung_srgb_eyeprotect_data.xml:$(TARGET_COPY_OUT_ODM)/etc/samsung2048_ana6705_samsung_srgb_eyeprotect_data.xml \
     vendor/realme/salaa/proprietary/odm/etc/sensor/sensor_config.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/sensor_config.json \
     vendor/realme/salaa/proprietary/odm/etc/temperature_profile/sys_high_temp_protect_realme_20741.xml:$(TARGET_COPY_OUT_ODM)/etc/temperature_profile/sys_high_temp_protect_realme_20741.xml \
     vendor/realme/salaa/proprietary/odm/etc/temperature_profile/sys_thermal_control_config.xml:$(TARGET_COPY_OUT_ODM)/etc/temperature_profile/sys_thermal_control_config.xml \
-    vendor/realme/salaa/proprietary/odm/etc/tianma_nt36672c_tianma_eyeprotect_data.xml:$(TARGET_COPY_OUT_ODM)/etc/tianma_nt36672c_tianma_eyeprotect_data.xml \
-    vendor/realme/salaa/proprietary/odm/etc/tm_nt37701_2048_tm_nt37701_42_eyeprotect_data.xml:$(TARGET_COPY_OUT_ODM)/etc/tm_nt37701_2048_tm_nt37701_42_eyeprotect_data.xml \
-    vendor/realme/salaa/proprietary/odm/etc/tm_nt37701_2048_tm_nt37701_42_srgb_eyeprotect_data.xml:$(TARGET_COPY_OUT_ODM)/etc/tm_nt37701_2048_tm_nt37701_42_srgb_eyeprotect_data.xml \
     vendor/realme/salaa/proprietary/odm/etc/vendor_wifi_rus_config.xml:$(TARGET_COPY_OUT_ODM)/etc/vendor_wifi_rus_config.xml \
     vendor/realme/salaa/proprietary/odm/etc/wifi/txpowerctrl.cfg:$(TARGET_COPY_OUT_ODM)/etc/wifi/txpowerctrl.cfg \
     vendor/realme/salaa/proprietary/odm/etc/wifi/wifi.cfg:$(TARGET_COPY_OUT_ODM)/etc/wifi/wifi.cfg \
