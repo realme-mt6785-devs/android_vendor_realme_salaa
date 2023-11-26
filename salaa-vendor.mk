@@ -39,7 +39,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/salaa/proprietary/odm/bin/hw/vendor.oplus.hardware.displaypanelfeature@1.0-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.oplus.hardware.displaypanelfeature@1.0-service \
     vendor/realme/salaa/proprietary/odm/bin/hw/vendor.oplus.hardware.mtkmodemaci@1.0-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.oplus.hardware.mtkmodemaci@1.0-service \
     vendor/realme/salaa/proprietary/odm/bin/hw/vendor.oplus.hardware.oplusSensor@1.0-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.oplus.hardware.oplusSensor@1.0-service \
-    vendor/realme/salaa/proprietary/odm/bin/hw/vendor.oplus.hardware.orms.ormsHalService@1.0-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.oplus.hardware.orms.ormsHalService@1.0-service \
     vendor/realme/salaa/proprietary/odm/bin/hw/vendor.oplus.hardware.rpmh@2.0-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.oplus.hardware.rpmh@2.0-service \
     vendor/realme/salaa/proprietary/odm/bin/init.oplus.btChangePermission.sh:$(TARGET_COPY_OUT_ODM)/bin/init.oplus.btChangePermission.sh \
     vendor/realme/salaa/proprietary/odm/bin/init.oplus.fingerprints.sh:$(TARGET_COPY_OUT_ODM)/bin/init.oplus.fingerprints.sh \
@@ -179,7 +178,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/salaa/proprietary/odm/etc/init/vendor.oplus.hardware.displaypanelfeature@1.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.displaypanelfeature@1.0-service.rc \
     vendor/realme/salaa/proprietary/odm/etc/init/vendor.oplus.hardware.mtkmodemaci@1.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.mtkmodemaci@1.0-service.rc \
     vendor/realme/salaa/proprietary/odm/etc/init/vendor.oplus.hardware.oplusSensor@1.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.oplusSensor@1.0-service.rc \
-    vendor/realme/salaa/proprietary/odm/etc/init/vendor.oplus.hardware.orms.ormsHalService@1.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.orms.ormsHalService@1.0-service.rc \
     vendor/realme/salaa/proprietary/odm/etc/init/vendor.oplus.hardware.rpmh@2.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.rpmh@2.0-service.rc \
     vendor/realme/salaa/proprietary/odm/etc/init/vendor_engineermode.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor_engineermode.rc \
     vendor/realme/salaa/proprietary/vendor/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf \
@@ -281,7 +279,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/salaa/proprietary/odm/lib/hw/fingerprint.goodix_G6.default.so:$(TARGET_COPY_OUT_ODM)/lib/hw/fingerprint.goodix_G6.default.so \
     vendor/realme/salaa/proprietary/odm/lib/hw/fingerprint.goodix_G7.default.so:$(TARGET_COPY_OUT_ODM)/lib/hw/fingerprint.goodix_G7.default.so \
     vendor/realme/salaa/proprietary/odm/lib/hw/vendor.oplus.hardware.camera.slogan@1.0-impl.so:$(TARGET_COPY_OUT_ODM)/lib/hw/vendor.oplus.hardware.camera.slogan@1.0-impl.so \
-    vendor/realme/salaa/proprietary/odm/lib/hw/vendor.oplus.hardware.orms.ormsHalService@1.0-impl.so:$(TARGET_COPY_OUT_ODM)/lib/hw/vendor.oplus.hardware.orms.ormsHalService@1.0-impl.so \
     vendor/realme/salaa/proprietary/odm/lib/libRbsFlow.so:$(TARGET_COPY_OUT_ODM)/lib/libRbsFlow.so \
     vendor/realme/salaa/proprietary/odm/lib/libRbsFlow_cap.so:$(TARGET_COPY_OUT_ODM)/lib/libRbsFlow_cap.so \
     vendor/realme/salaa/proprietary/odm/lib/libaiboost_sr.so:$(TARGET_COPY_OUT_ODM)/lib/libaiboost_sr.so \
@@ -325,7 +322,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/salaa/proprietary/odm/lib/vendor.oplus.hardware.ims@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.ims@1.0.so \
     vendor/realme/salaa/proprietary/odm/lib/vendor.oplus.hardware.mtkmodemaci@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.mtkmodemaci@1.0.so \
     vendor/realme/salaa/proprietary/odm/lib/vendor.oplus.hardware.oplusSensor@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.oplusSensor@1.0.so \
-    vendor/realme/salaa/proprietary/odm/lib/vendor.oplus.hardware.orms.ormsHalService@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.orms.ormsHalService@1.0.so \
     vendor/realme/salaa/proprietary/odm/lib/vendor.oplus.hardware.orms@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.orms@1.0.so \
     vendor/realme/salaa/proprietary/odm/lib/vendor.oplus.hardware.radio@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.radio@1.0.so \
     vendor/realme/salaa/proprietary/odm/lib/vendor.oplus.hardware.rpmh@2.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.rpmh@2.0.so \
@@ -341,7 +337,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/salaa/proprietary/odm/lib64/hw/fpsensor_fingerprint.default.so:$(TARGET_COPY_OUT_ODM)/lib64/hw/fpsensor_fingerprint.default.so \
     vendor/realme/salaa/proprietary/odm/lib64/hw/sidefp_fingerprint.default.so:$(TARGET_COPY_OUT_ODM)/lib64/hw/sidefp_fingerprint.default.so \
     vendor/realme/salaa/proprietary/odm/lib64/hw/vendor.oplus.hardware.camera.slogan@1.0-impl.so:$(TARGET_COPY_OUT_ODM)/lib64/hw/vendor.oplus.hardware.camera.slogan@1.0-impl.so \
-    vendor/realme/salaa/proprietary/odm/lib64/hw/vendor.oplus.hardware.orms.ormsHalService@1.0-impl.so:$(TARGET_COPY_OUT_ODM)/lib64/hw/vendor.oplus.hardware.orms.ormsHalService@1.0-impl.so \
     vendor/realme/salaa/proprietary/odm/lib64/libCipCommon.so:$(TARGET_COPY_OUT_ODM)/lib64/libCipCommon.so \
     vendor/realme/salaa/proprietary/odm/lib64/libCipParamProcess.so:$(TARGET_COPY_OUT_ODM)/lib64/libCipParamProcess.so \
     vendor/realme/salaa/proprietary/odm/lib64/libCipParameter0.so:$(TARGET_COPY_OUT_ODM)/lib64/libCipParameter0.so \
@@ -402,7 +397,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/salaa/proprietary/odm/lib64/vendor.oplus.hardware.ims@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.ims@1.0.so \
     vendor/realme/salaa/proprietary/odm/lib64/vendor.oplus.hardware.mtkmodemaci@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.mtkmodemaci@1.0.so \
     vendor/realme/salaa/proprietary/odm/lib64/vendor.oplus.hardware.oplusSensor@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.oplusSensor@1.0.so \
-    vendor/realme/salaa/proprietary/odm/lib64/vendor.oplus.hardware.orms.ormsHalService@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.orms.ormsHalService@1.0.so \
     vendor/realme/salaa/proprietary/odm/lib64/vendor.oplus.hardware.orms@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.orms@1.0.so \
     vendor/realme/salaa/proprietary/odm/lib64/vendor.oplus.hardware.radio@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.radio@1.0.so \
     vendor/realme/salaa/proprietary/odm/lib64/vendor.oplus.hardware.rpmh@2.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.rpmh@2.0.so \
@@ -3321,5 +3315,4 @@ PRODUCT_PACKAGES += \
     manifest_oplus_fingerprint \
     manifest_oplus_ifaa \
     manifest_oplus_mtkmodemaci \
-    manifest_oplus_orms \
     manifest_oplus_rpmh-V20
