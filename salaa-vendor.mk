@@ -268,7 +268,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/salaa/proprietary/odm/lib/hw/fingerprint.goodix_G5.default.so:$(TARGET_COPY_OUT_ODM)/lib/hw/fingerprint.goodix_G5.default.so \
     vendor/realme/salaa/proprietary/odm/lib/hw/fingerprint.goodix_G6.default.so:$(TARGET_COPY_OUT_ODM)/lib/hw/fingerprint.goodix_G6.default.so \
     vendor/realme/salaa/proprietary/odm/lib/hw/fingerprint.goodix_G7.default.so:$(TARGET_COPY_OUT_ODM)/lib/hw/fingerprint.goodix_G7.default.so \
-    vendor/realme/salaa/proprietary/odm/lib/hw/vendor.oplus.hardware.camera.slogan@1.0-impl.so:$(TARGET_COPY_OUT_ODM)/lib/hw/vendor.oplus.hardware.camera.slogan@1.0-impl.so \
     vendor/realme/salaa/proprietary/odm/lib/libRbsFlow.so:$(TARGET_COPY_OUT_ODM)/lib/libRbsFlow.so \
     vendor/realme/salaa/proprietary/odm/lib/libRbsFlow_cap.so:$(TARGET_COPY_OUT_ODM)/lib/libRbsFlow_cap.so \
     vendor/realme/salaa/proprietary/odm/lib/libaiboost_sr.so:$(TARGET_COPY_OUT_ODM)/lib/libaiboost_sr.so \
@@ -303,7 +302,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/salaa/proprietary/odm/lib/soundfx/libhaptic_effect.so:$(TARGET_COPY_OUT_ODM)/lib/soundfx/libhaptic_effect.so \
     vendor/realme/salaa/proprietary/odm/lib/vendor.oplus.hardware.appradio@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.appradio@1.0.so \
     vendor/realme/salaa/proprietary/odm/lib/vendor.oplus.hardware.biometrics.fingerprint@2.1.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.biometrics.fingerprint@2.1.so \
-    vendor/realme/salaa/proprietary/odm/lib/vendor.oplus.hardware.camera.slogan@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.camera.slogan@1.0.so \
     vendor/realme/salaa/proprietary/odm/lib/vendor.oplus.hardware.charger@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.charger@1.0.so \
     vendor/realme/salaa/proprietary/odm/lib/vendor.oplus.hardware.commondcs@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.commondcs@1.0.so \
     vendor/realme/salaa/proprietary/odm/lib/vendor.oplus.hardware.engcamera@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.engcamera@1.0.so \
@@ -325,7 +323,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/salaa/proprietary/odm/lib64/hw/fingerprint.goodix_G7.default.so:$(TARGET_COPY_OUT_ODM)/lib64/hw/fingerprint.goodix_G7.default.so \
     vendor/realme/salaa/proprietary/odm/lib64/hw/fpsensor_fingerprint.default.so:$(TARGET_COPY_OUT_ODM)/lib64/hw/fpsensor_fingerprint.default.so \
     vendor/realme/salaa/proprietary/odm/lib64/hw/sidefp_fingerprint.default.so:$(TARGET_COPY_OUT_ODM)/lib64/hw/sidefp_fingerprint.default.so \
-    vendor/realme/salaa/proprietary/odm/lib64/hw/vendor.oplus.hardware.camera.slogan@1.0-impl.so:$(TARGET_COPY_OUT_ODM)/lib64/hw/vendor.oplus.hardware.camera.slogan@1.0-impl.so \
     vendor/realme/salaa/proprietary/odm/lib64/libCipCommon.so:$(TARGET_COPY_OUT_ODM)/lib64/libCipCommon.so \
     vendor/realme/salaa/proprietary/odm/lib64/libCipParamProcess.so:$(TARGET_COPY_OUT_ODM)/lib64/libCipParamProcess.so \
     vendor/realme/salaa/proprietary/odm/lib64/libCipParameter0.so:$(TARGET_COPY_OUT_ODM)/lib64/libCipParameter0.so \
@@ -378,7 +375,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/salaa/proprietary/odm/lib64/oplus.sensors.ssc.so:$(TARGET_COPY_OUT_ODM)/lib64/oplus.sensors.ssc.so \
     vendor/realme/salaa/proprietary/odm/lib64/vendor.oplus.hardware.appradio@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.appradio@1.0.so \
     vendor/realme/salaa/proprietary/odm/lib64/vendor.oplus.hardware.biometrics.fingerprint@2.1.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.biometrics.fingerprint@2.1.so \
-    vendor/realme/salaa/proprietary/odm/lib64/vendor.oplus.hardware.camera.slogan@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.camera.slogan@1.0.so \
     vendor/realme/salaa/proprietary/odm/lib64/vendor.oplus.hardware.charger@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.charger@1.0.so \
     vendor/realme/salaa/proprietary/odm/lib64/vendor.oplus.hardware.commondcs@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.commondcs@1.0.so \
     vendor/realme/salaa/proprietary/odm/lib64/vendor.oplus.hardware.engcamera@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.engcamera@1.0.so \
@@ -3166,7 +3162,6 @@ PRODUCT_PACKAGES += \
     oplus_wifi_supplicant_device \
     manifest_engineer \
     manifest_oplusSensor \
-    manifest_oplus_camera_slogan \
     manifest_oplus_charger \
     manifest_oplus_fingerprint \
     manifest_oplus_mtkmodemaci \
