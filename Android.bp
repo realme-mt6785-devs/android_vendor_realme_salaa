@@ -247,12 +247,3 @@ prebuilt_etc_xml {
 	device_specific: true,
 }
 
-prebuilt_etc_xml {
-	name: "manifest_oplus_rpmh-V20",
-	owner: "realme",
-	src: "proprietary/odm/etc/vintf/manifest/manifest_oplus_rpmh-V20.xml",
-	filename_from_src: true,
-	sub_dir: "vintf/manifest",
-	device_specific: true,
-}
-
