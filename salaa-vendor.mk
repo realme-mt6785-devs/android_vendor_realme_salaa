@@ -185,10 +185,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/salaa/proprietary/odm/lib/hw/fingerprint.goodix_G5.default.so:$(TARGET_COPY_OUT_ODM)/lib/hw/fingerprint.goodix_G5.default.so \
     vendor/realme/salaa/proprietary/odm/lib/hw/fingerprint.goodix_G6.default.so:$(TARGET_COPY_OUT_ODM)/lib/hw/fingerprint.goodix_G6.default.so \
     vendor/realme/salaa/proprietary/odm/lib/hw/fingerprint.goodix_G7.default.so:$(TARGET_COPY_OUT_ODM)/lib/hw/fingerprint.goodix_G7.default.so \
-    vendor/realme/salaa/proprietary/odm/lib/libRbsFlow.so:$(TARGET_COPY_OUT_ODM)/lib/libRbsFlow.so \
-    vendor/realme/salaa/proprietary/odm/lib/libRbsFlow_cap.so:$(TARGET_COPY_OUT_ODM)/lib/libRbsFlow_cap.so \
-    vendor/realme/salaa/proprietary/odm/lib/libaiboost_sr.so:$(TARGET_COPY_OUT_ODM)/lib/libaiboost_sr.so \
-    vendor/realme/salaa/proprietary/odm/lib/libarcsoft_scbokeh_video.so:$(TARGET_COPY_OUT_ODM)/lib/libarcsoft_scbokeh_video.so \
     vendor/realme/salaa/proprietary/odm/lib/libavcodec.so:$(TARGET_COPY_OUT_ODM)/lib/libavcodec.so \
     vendor/realme/salaa/proprietary/odm/lib/libavformat.so:$(TARGET_COPY_OUT_ODM)/lib/libavformat.so \
     vendor/realme/salaa/proprietary/odm/lib/libavutil.so:$(TARGET_COPY_OUT_ODM)/lib/libavutil.so \
@@ -212,7 +208,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/salaa/proprietary/odm/lib/libsn100u_fw.so:$(TARGET_COPY_OUT_ODM)/lib/libsn100u_fw.so \
     vendor/realme/salaa/proprietary/odm/lib/libswresample.so:$(TARGET_COPY_OUT_ODM)/lib/libswresample.so \
     vendor/realme/salaa/proprietary/odm/lib/libswscale.so:$(TARGET_COPY_OUT_ODM)/lib/libswscale.so \
-    vendor/realme/salaa/proprietary/odm/lib/libtfavib.so:$(TARGET_COPY_OUT_ODM)/lib/libtfavib.so \
     vendor/realme/salaa/proprietary/odm/lib/libtrustonic_keybox_ca.so:$(TARGET_COPY_OUT_ODM)/lib/libtrustonic_keybox_ca.so \
     vendor/realme/salaa/proprietary/odm/lib/soundfx/awinic.haptic.effect.so:$(TARGET_COPY_OUT_ODM)/lib/soundfx/awinic.haptic.effect.so \
     vendor/realme/salaa/proprietary/odm/lib/soundfx/libhaptic_effect.so:$(TARGET_COPY_OUT_ODM)/lib/soundfx/libhaptic_effect.so \
@@ -220,7 +215,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/salaa/proprietary/odm/lib/vendor.oplus.hardware.biometrics.fingerprint@2.1.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.biometrics.fingerprint@2.1.so \
     vendor/realme/salaa/proprietary/odm/lib/vendor.oplus.hardware.charger@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.charger@1.0.so \
     vendor/realme/salaa/proprietary/odm/lib/vendor.oplus.hardware.commondcs@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.commondcs@1.0.so \
-    vendor/realme/salaa/proprietary/odm/lib/vendor.oplus.hardware.engcamera@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.engcamera@1.0.so \
     vendor/realme/salaa/proprietary/odm/lib/vendor.oplus.hardware.ims@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.ims@1.0.so \
     vendor/realme/salaa/proprietary/odm/lib/vendor.oplus.hardware.mtkmodemaci@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.mtkmodemaci@1.0.so \
     vendor/realme/salaa/proprietary/odm/lib/vendor.oplus.hardware.oplusSensor@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.oplusSensor@1.0.so \
@@ -656,10 +650,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/salaa/proprietary/vendor/lib/egl/libMEOW_gift.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libMEOW_gift.so \
     vendor/realme/salaa/proprietary/vendor/lib/egl/libMEOW_qt.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libMEOW_qt.so \
     vendor/realme/salaa/proprietary/vendor/lib/egl/libMEOW_trace.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libMEOW_trace.so \
-    vendor/realme/salaa/proprietary/vendor/lib/gc02m1_mipi_raw_20730_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/gc02m1_mipi_raw_20730_IdxMgr.so \
-    vendor/realme/salaa/proprietary/vendor/lib/gc02m1_mipi_raw_20730_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/gc02m1_mipi_raw_20730_tuning.so \
-    vendor/realme/salaa/proprietary/vendor/lib/gc02m1b_mipi_mono_20730_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/gc02m1b_mipi_mono_20730_IdxMgr.so \
-    vendor/realme/salaa/proprietary/vendor/lib/gc02m1b_mipi_mono_20730_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/gc02m1b_mipi_mono_20730_tuning.so \
     vendor/realme/salaa/proprietary/vendor/lib/hw/android.hardware.audio@6.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.audio@6.0-impl-mediatek.so \
     vendor/realme/salaa/proprietary/vendor/lib/hw/android.hardware.audio@7.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.audio@7.0-impl-mediatek.so \
     vendor/realme/salaa/proprietary/vendor/lib/hw/android.hardware.bluetooth@1.1-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.bluetooth@1.1-impl-mediatek.so \
@@ -676,629 +666,11 @@ PRODUCT_COPY_FILES += \
     vendor/realme/salaa/proprietary/vendor/lib/hw/thermal_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/thermal_hal.so \
     vendor/realme/salaa/proprietary/vendor/lib/hw/vendor.mediatek.hardware.bluetooth.audio@2.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.bluetooth.audio@2.1-impl.so \
     vendor/realme/salaa/proprietary/vendor/lib/hw/vendor.mediatek.hardware.bluetooth.audio@2.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.bluetooth.audio@2.2-impl.so \
-    vendor/realme/salaa/proprietary/vendor/lib/hw/vendor.mediatek.hardware.camera.atms@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.camera.atms@1.0-impl.so \
-    vendor/realme/salaa/proprietary/vendor/lib/hw/vendor.mediatek.hardware.camera.bgservice@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.camera.bgservice@1.1-impl.so \
-    vendor/realme/salaa/proprietary/vendor/lib/hw/vendor.mediatek.hardware.camera.isphal@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.camera.isphal@1.0-impl.so \
-    vendor/realme/salaa/proprietary/vendor/lib/hw/vendor.mediatek.hardware.camera.postproc@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.camera.postproc@1.0-impl.so \
     vendor/realme/salaa/proprietary/vendor/lib/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-impl.so \
     vendor/realme/salaa/proprietary/vendor/lib/hw/vendor.mediatek.hardware.mms@1.6-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.mms@1.6-impl.so \
     vendor/realme/salaa/proprietary/vendor/lib/hw/vendor.mediatek.hardware.mtkpower@1.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.mtkpower@1.2-impl.so \
     vendor/realme/salaa/proprietary/vendor/lib/hw/vendor.mediatek.hardware.nvram@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.nvram@1.1-impl.so \
     vendor/realme/salaa/proprietary/vendor/lib/hw/vendor.mediatek.hardware.pq@2.13-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.pq@2.13-impl.so \
-    vendor/realme/salaa/proprietary/vendor/lib/imx350_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/imx350_mipi_raw_IdxMgr.so \
-    vendor/realme/salaa/proprietary/vendor/lib/imx350_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/imx350_mipi_raw_tuning.so \
-    vendor/realme/salaa/proprietary/vendor/lib/imx386_mipi_mono_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/imx386_mipi_mono_IdxMgr.so \
-    vendor/realme/salaa/proprietary/vendor/lib/imx386_mipi_mono_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/imx386_mipi_mono_tuning.so \
-    vendor/realme/salaa/proprietary/vendor/lib/imx386_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/imx386_mipi_raw_IdxMgr.so \
-    vendor/realme/salaa/proprietary/vendor/lib/imx386_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/imx386_mipi_raw_tuning.so \
-    vendor/realme/salaa/proprietary/vendor/lib/imx398_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/imx398_mipi_raw_IdxMgr.so \
-    vendor/realme/salaa/proprietary/vendor/lib/imx398_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/imx398_mipi_raw_tuning.so \
-    vendor/realme/salaa/proprietary/vendor/lib/imx471_mipi_raw1_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/imx471_mipi_raw1_IdxMgr.so \
-    vendor/realme/salaa/proprietary/vendor/lib/imx471_mipi_raw1_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/imx471_mipi_raw1_tuning.so \
-    vendor/realme/salaa/proprietary/vendor/lib/imx471_mipi_raw2_20730_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/imx471_mipi_raw2_20730_IdxMgr.so \
-    vendor/realme/salaa/proprietary/vendor/lib/imx471_mipi_raw2_20730_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/imx471_mipi_raw2_20730_tuning.so \
-    vendor/realme/salaa/proprietary/vendor/lib/imx499_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/imx499_mipi_raw_IdxMgr.so \
-    vendor/realme/salaa/proprietary/vendor/lib/imx499_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/imx499_mipi_raw_tuning.so \
-    vendor/realme/salaa/proprietary/vendor/lib/imx519_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/imx519_mipi_raw_IdxMgr.so \
-    vendor/realme/salaa/proprietary/vendor/lib/imx519_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/imx519_mipi_raw_tuning.so \
-    vendor/realme/salaa/proprietary/vendor/lib/imx576_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/imx576_mipi_raw_IdxMgr.so \
-    vendor/realme/salaa/proprietary/vendor/lib/imx576_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/imx576_mipi_raw_tuning.so \
-    vendor/realme/salaa/proprietary/vendor/lib/imx586_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/imx586_mipi_raw_IdxMgr.so \
-    vendor/realme/salaa/proprietary/vendor/lib/imx586_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/imx586_mipi_raw_tuning.so \
-    vendor/realme/salaa/proprietary/vendor/lib/imx682_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/imx682_mipi_raw_IdxMgr.so \
-    vendor/realme/salaa/proprietary/vendor/lib/imx682_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/imx682_mipi_raw_tuning.so \
-    vendor/realme/salaa/proprietary/vendor/lib/lib3a.ae.core.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib3a.ae.core.so \
-    vendor/realme/salaa/proprietary/vendor/lib/lib3a.ae.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib3a.ae.so \
-    vendor/realme/salaa/proprietary/vendor/lib/lib3a.af.core.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib3a.af.core.so \
-    vendor/realme/salaa/proprietary/vendor/lib/lib3a.af.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib3a.af.so \
-    vendor/realme/salaa/proprietary/vendor/lib/lib3a.awb.core.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib3a.awb.core.so \
-    vendor/realme/salaa/proprietary/vendor/lib/lib3a.awb.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib3a.awb.so \
-    vendor/realme/salaa/proprietary/vendor/lib/lib3a.ccudrv.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib3a.ccudrv.so \
-    vendor/realme/salaa/proprietary/vendor/lib/lib3a.ccuif.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib3a.ccuif.so \
-    vendor/realme/salaa/proprietary/vendor/lib/lib3a.flash.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib3a.flash.so \
-    vendor/realme/salaa/proprietary/vendor/lib/lib3a.gma.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib3a.gma.so \
-    vendor/realme/salaa/proprietary/vendor/lib/lib3a.lce.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib3a.lce.so \
-    vendor/realme/salaa/proprietary/vendor/lib/lib3a.log.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib3a.log.so \
-    vendor/realme/salaa/proprietary/vendor/lib/lib3a.n3d3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib3a.n3d3a.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_gc02m1bmipimono20730_AutoHDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1bmipimono20730_AutoHDR_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_gc02m1bmipimono20730_AutoHDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1bmipimono20730_AutoHDR_Preview.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_gc02m1bmipimono20730_AutoHDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1bmipimono20730_AutoHDR_Video.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_gc02m1bmipimono20730_Face_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1bmipimono20730_Face_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_gc02m1bmipimono20730_Flash_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1bmipimono20730_Flash_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_gc02m1bmipimono20730_Flash_HDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1bmipimono20730_Flash_HDR_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_gc02m1bmipimono20730_HDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1bmipimono20730_HDR_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_gc02m1bmipimono20730_HDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1bmipimono20730_HDR_Preview.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_gc02m1bmipimono20730_HDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1bmipimono20730_HDR_Video.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_gc02m1bmipimono20730_N3D_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1bmipimono20730_N3D_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_gc02m1bmipimono20730_N3D_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1bmipimono20730_N3D_Preview.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_gc02m1bmipimono20730_N3D_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1bmipimono20730_N3D_Video.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_gc02m1bmipimono20730_Reserved.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1bmipimono20730_Reserved.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_gc02m1bmipimono20730_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1bmipimono20730_Scene_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_gc02m1bmipimono20730_Scene_Capture_4cell.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1bmipimono20730_Scene_Capture_4cell.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_gc02m1bmipimono20730_Scene_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1bmipimono20730_Scene_Preview.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_gc02m1bmipimono20730_Scene_Preview_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1bmipimono20730_Scene_Preview_4k.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_gc02m1bmipimono20730_Scene_Preview_ZSD_Flash.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1bmipimono20730_Scene_Preview_ZSD_Flash.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_gc02m1bmipimono20730_Video_1080.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1bmipimono20730_Video_1080.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_gc02m1bmipimono20730_Video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1bmipimono20730_Video_4k.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_gc02m1mipiraw20730_AutoHDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1mipiraw20730_AutoHDR_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_gc02m1mipiraw20730_AutoHDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1mipiraw20730_AutoHDR_Preview.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_gc02m1mipiraw20730_AutoHDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1mipiraw20730_AutoHDR_Video.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_gc02m1mipiraw20730_Face_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1mipiraw20730_Face_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_gc02m1mipiraw20730_Flash_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1mipiraw20730_Flash_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_gc02m1mipiraw20730_Flash_HDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1mipiraw20730_Flash_HDR_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_gc02m1mipiraw20730_HDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1mipiraw20730_HDR_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_gc02m1mipiraw20730_HDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1mipiraw20730_HDR_Preview.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_gc02m1mipiraw20730_HDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1mipiraw20730_HDR_Video.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_gc02m1mipiraw20730_N3D_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1mipiraw20730_N3D_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_gc02m1mipiraw20730_N3D_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1mipiraw20730_N3D_Preview.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_gc02m1mipiraw20730_N3D_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1mipiraw20730_N3D_Video.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_gc02m1mipiraw20730_Reserved.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1mipiraw20730_Reserved.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_gc02m1mipiraw20730_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1mipiraw20730_Scene_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_gc02m1mipiraw20730_Scene_Capture_4cell.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1mipiraw20730_Scene_Capture_4cell.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_gc02m1mipiraw20730_Scene_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1mipiraw20730_Scene_Preview.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_gc02m1mipiraw20730_Scene_Preview_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1mipiraw20730_Scene_Preview_4k.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_gc02m1mipiraw20730_Scene_Preview_ZSD_Flash.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1mipiraw20730_Scene_Preview_ZSD_Flash.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_gc02m1mipiraw20730_Video_1080.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1mipiraw20730_Video_1080.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_gc02m1mipiraw20730_Video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1mipiraw20730_Video_4k.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx350mipiraw_AutoHDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx350mipiraw_AutoHDR_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx350mipiraw_AutoHDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx350mipiraw_AutoHDR_Preview.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx350mipiraw_AutoHDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx350mipiraw_AutoHDR_Video.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx350mipiraw_Face_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx350mipiraw_Face_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx350mipiraw_Flash_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx350mipiraw_Flash_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx350mipiraw_Flash_HDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx350mipiraw_Flash_HDR_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx350mipiraw_HDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx350mipiraw_HDR_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx350mipiraw_HDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx350mipiraw_HDR_Preview.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx350mipiraw_HDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx350mipiraw_HDR_Video.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx350mipiraw_N3D_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx350mipiraw_N3D_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx350mipiraw_N3D_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx350mipiraw_N3D_Preview.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx350mipiraw_N3D_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx350mipiraw_N3D_Video.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx350mipiraw_Reserved.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx350mipiraw_Reserved.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx350mipiraw_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx350mipiraw_Scene_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx350mipiraw_Scene_Capture_4cell.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx350mipiraw_Scene_Capture_4cell.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx350mipiraw_Scene_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx350mipiraw_Scene_Preview.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx350mipiraw_Scene_Preview_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx350mipiraw_Scene_Preview_4k.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx350mipiraw_Scene_Preview_ZSD_Flash.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx350mipiraw_Scene_Preview_ZSD_Flash.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx350mipiraw_Video_1080.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx350mipiraw_Video_1080.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx350mipiraw_Video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx350mipiraw_Video_4k.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx386mipimono_AutoHDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx386mipimono_AutoHDR_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx386mipimono_AutoHDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx386mipimono_AutoHDR_Preview.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx386mipimono_AutoHDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx386mipimono_AutoHDR_Video.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx386mipimono_Face_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx386mipimono_Face_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx386mipimono_Flash_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx386mipimono_Flash_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx386mipimono_Flash_HDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx386mipimono_Flash_HDR_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx386mipimono_HDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx386mipimono_HDR_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx386mipimono_HDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx386mipimono_HDR_Preview.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx386mipimono_HDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx386mipimono_HDR_Video.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx386mipimono_N3D_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx386mipimono_N3D_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx386mipimono_N3D_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx386mipimono_N3D_Preview.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx386mipimono_N3D_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx386mipimono_N3D_Video.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx386mipimono_Reserved.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx386mipimono_Reserved.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx386mipimono_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx386mipimono_Scene_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx386mipimono_Scene_Capture_4cell.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx386mipimono_Scene_Capture_4cell.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx386mipimono_Scene_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx386mipimono_Scene_Preview.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx386mipimono_Scene_Preview_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx386mipimono_Scene_Preview_4k.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx386mipimono_Scene_Preview_ZSD_Flash.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx386mipimono_Scene_Preview_ZSD_Flash.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx386mipimono_Video_1080.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx386mipimono_Video_1080.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx386mipimono_Video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx386mipimono_Video_4k.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx386mipiraw_AutoHDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx386mipiraw_AutoHDR_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx386mipiraw_AutoHDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx386mipiraw_AutoHDR_Preview.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx386mipiraw_AutoHDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx386mipiraw_AutoHDR_Video.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx386mipiraw_Face_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx386mipiraw_Face_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx386mipiraw_Flash_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx386mipiraw_Flash_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx386mipiraw_Flash_HDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx386mipiraw_Flash_HDR_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx386mipiraw_HDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx386mipiraw_HDR_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx386mipiraw_HDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx386mipiraw_HDR_Preview.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx386mipiraw_HDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx386mipiraw_HDR_Video.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx386mipiraw_N3D_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx386mipiraw_N3D_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx386mipiraw_N3D_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx386mipiraw_N3D_Preview.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx386mipiraw_N3D_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx386mipiraw_N3D_Video.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx386mipiraw_Reserved.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx386mipiraw_Reserved.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx386mipiraw_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx386mipiraw_Scene_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx386mipiraw_Scene_Capture_4cell.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx386mipiraw_Scene_Capture_4cell.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx386mipiraw_Scene_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx386mipiraw_Scene_Preview.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx386mipiraw_Scene_Preview_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx386mipiraw_Scene_Preview_4k.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx386mipiraw_Scene_Preview_ZSD_Flash.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx386mipiraw_Scene_Preview_ZSD_Flash.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx386mipiraw_Video_1080.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx386mipiraw_Video_1080.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx386mipiraw_Video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx386mipiraw_Video_4k.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx398mipiraw_AutoHDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx398mipiraw_AutoHDR_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx398mipiraw_AutoHDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx398mipiraw_AutoHDR_Preview.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx398mipiraw_AutoHDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx398mipiraw_AutoHDR_Video.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx398mipiraw_Face_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx398mipiraw_Face_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx398mipiraw_Flash_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx398mipiraw_Flash_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx398mipiraw_Flash_HDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx398mipiraw_Flash_HDR_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx398mipiraw_HDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx398mipiraw_HDR_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx398mipiraw_HDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx398mipiraw_HDR_Preview.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx398mipiraw_HDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx398mipiraw_HDR_Video.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx398mipiraw_N3D_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx398mipiraw_N3D_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx398mipiraw_N3D_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx398mipiraw_N3D_Preview.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx398mipiraw_N3D_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx398mipiraw_N3D_Video.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx398mipiraw_Reserved.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx398mipiraw_Reserved.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx398mipiraw_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx398mipiraw_Scene_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx398mipiraw_Scene_Capture_4cell.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx398mipiraw_Scene_Capture_4cell.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx398mipiraw_Scene_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx398mipiraw_Scene_Preview.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx398mipiraw_Scene_Preview_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx398mipiraw_Scene_Preview_4k.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx398mipiraw_Scene_Preview_ZSD_Flash.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx398mipiraw_Scene_Preview_ZSD_Flash.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx398mipiraw_Video_1080.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx398mipiraw_Video_1080.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx398mipiraw_Video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx398mipiraw_Video_4k.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx471mipiraw1_3HDR_Preivew.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx471mipiraw1_3HDR_Preivew.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx471mipiraw1_3rd_Capture_1080P.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx471mipiraw1_3rd_Capture_1080P.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx471mipiraw1_3rd_Capture_480P.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx471mipiraw1_3rd_Capture_480P.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx471mipiraw1_3rd_Capture_720P.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx471mipiraw1_3rd_Capture_720P.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx471mipiraw1_3rd_Preview_1080P.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx471mipiraw1_3rd_Preview_1080P.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx471mipiraw1_3rd_Preview_480P.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx471mipiraw1_3rd_Preview_480P.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx471mipiraw1_3rd_Preview_720P.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx471mipiraw1_3rd_Preview_720P.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx471mipiraw1_FaceBeauty_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx471mipiraw1_FaceBeauty_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx471mipiraw1_FaceBeauty_Capture_Bining.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx471mipiraw1_FaceBeauty_Capture_Bining.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx471mipiraw1_FaceBeauty_Preview_Noface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx471mipiraw1_FaceBeauty_Preview_Noface.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx471mipiraw1_FaceBeauty_Scene_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx471mipiraw1_FaceBeauty_Scene_Preview.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx471mipiraw1_FaceUnlock.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx471mipiraw1_FaceUnlock.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx471mipiraw1_Face_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx471mipiraw1_Face_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx471mipiraw1_Face_Capture_superNS.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx471mipiraw1_Face_Capture_superNS.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx471mipiraw1_Flash_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx471mipiraw1_Flash_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx471mipiraw1_Panorama.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx471mipiraw1_Panorama.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx471mipiraw1_Production_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx471mipiraw1_Production_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx471mipiraw1_Reserved.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx471mipiraw1_Reserved.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx471mipiraw1_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx471mipiraw1_Scene_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx471mipiraw1_Scene_Capture_Bining.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx471mipiraw1_Scene_Capture_Bining.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx471mipiraw1_Scene_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx471mipiraw1_Scene_Preview.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx471mipiraw1_SlowMotion_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx471mipiraw1_SlowMotion_Video.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx471mipiraw1_Video_Recording.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx471mipiraw1_Video_Recording.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx471mipiraw1_WeChatQQ_1080P.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx471mipiraw1_WeChatQQ_1080P.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx471mipiraw1_WeChatQQ_480P.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx471mipiraw1_WeChatQQ_480P.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx471mipiraw1_WeChatQQ_720P.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx471mipiraw1_WeChatQQ_720P.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx471mipiraw1_YUVHDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx471mipiraw1_YUVHDR_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx471mipiraw1_YUVHDR_Capture_Binning.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx471mipiraw1_YUVHDR_Capture_Binning.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx471mipiraw1_subject_capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx471mipiraw1_subject_capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx471mipiraw1_zHDR_Capture_Binning.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx471mipiraw1_zHDR_Capture_Binning.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx471mipiraw220730_AutoHDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx471mipiraw220730_AutoHDR_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx471mipiraw220730_AutoHDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx471mipiraw220730_AutoHDR_Preview.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx471mipiraw220730_AutoHDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx471mipiraw220730_AutoHDR_Video.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx471mipiraw220730_Face_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx471mipiraw220730_Face_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx471mipiraw220730_Flash_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx471mipiraw220730_Flash_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx471mipiraw220730_Flash_HDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx471mipiraw220730_Flash_HDR_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx471mipiraw220730_HDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx471mipiraw220730_HDR_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx471mipiraw220730_HDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx471mipiraw220730_HDR_Preview.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx471mipiraw220730_HDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx471mipiraw220730_HDR_Video.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx471mipiraw220730_N3D_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx471mipiraw220730_N3D_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx471mipiraw220730_N3D_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx471mipiraw220730_N3D_Preview.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx471mipiraw220730_N3D_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx471mipiraw220730_N3D_Video.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx471mipiraw220730_Reserved.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx471mipiraw220730_Reserved.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx471mipiraw220730_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx471mipiraw220730_Scene_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx471mipiraw220730_Scene_Capture_4cell.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx471mipiraw220730_Scene_Capture_4cell.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx471mipiraw220730_Scene_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx471mipiraw220730_Scene_Preview.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx471mipiraw220730_Scene_Preview_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx471mipiraw220730_Scene_Preview_4k.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx471mipiraw220730_Scene_Preview_ZSD_Flash.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx471mipiraw220730_Scene_Preview_ZSD_Flash.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx471mipiraw220730_Video_1080.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx471mipiraw220730_Video_1080.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx471mipiraw220730_Video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx471mipiraw220730_Video_4k.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx499mipiraw_AutoHDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx499mipiraw_AutoHDR_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx499mipiraw_AutoHDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx499mipiraw_AutoHDR_Preview.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx499mipiraw_AutoHDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx499mipiraw_AutoHDR_Video.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx499mipiraw_Face_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx499mipiraw_Face_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx499mipiraw_Flash_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx499mipiraw_Flash_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx499mipiraw_Flash_HDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx499mipiraw_Flash_HDR_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx499mipiraw_HDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx499mipiraw_HDR_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx499mipiraw_HDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx499mipiraw_HDR_Preview.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx499mipiraw_HDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx499mipiraw_HDR_Video.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx499mipiraw_N3D_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx499mipiraw_N3D_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx499mipiraw_N3D_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx499mipiraw_N3D_Preview.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx499mipiraw_N3D_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx499mipiraw_N3D_Video.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx499mipiraw_Reserved.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx499mipiraw_Reserved.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx499mipiraw_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx499mipiraw_Scene_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx499mipiraw_Scene_Capture_4cell.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx499mipiraw_Scene_Capture_4cell.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx499mipiraw_Scene_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx499mipiraw_Scene_Preview.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx499mipiraw_Scene_Preview_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx499mipiraw_Scene_Preview_4k.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx499mipiraw_Scene_Preview_ZSD_Flash.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx499mipiraw_Scene_Preview_ZSD_Flash.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx499mipiraw_Video_1080.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx499mipiraw_Video_1080.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx499mipiraw_Video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx499mipiraw_Video_4k.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx519mipiraw_AutoHDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx519mipiraw_AutoHDR_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx519mipiraw_AutoHDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx519mipiraw_AutoHDR_Preview.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx519mipiraw_AutoHDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx519mipiraw_AutoHDR_Video.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx519mipiraw_Face_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx519mipiraw_Face_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx519mipiraw_Flash_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx519mipiraw_Flash_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx519mipiraw_Flash_HDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx519mipiraw_Flash_HDR_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx519mipiraw_HDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx519mipiraw_HDR_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx519mipiraw_HDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx519mipiraw_HDR_Preview.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx519mipiraw_HDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx519mipiraw_HDR_Video.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx519mipiraw_N3D_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx519mipiraw_N3D_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx519mipiraw_N3D_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx519mipiraw_N3D_Preview.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx519mipiraw_N3D_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx519mipiraw_N3D_Video.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx519mipiraw_Reserved.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx519mipiraw_Reserved.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx519mipiraw_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx519mipiraw_Scene_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx519mipiraw_Scene_Capture_4cell.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx519mipiraw_Scene_Capture_4cell.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx519mipiraw_Scene_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx519mipiraw_Scene_Preview.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx519mipiraw_Scene_Preview_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx519mipiraw_Scene_Preview_4k.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx519mipiraw_Scene_Preview_ZSD_Flash.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx519mipiraw_Scene_Preview_ZSD_Flash.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx519mipiraw_Video_1080.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx519mipiraw_Video_1080.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx519mipiraw_Video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx519mipiraw_Video_4k.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx576mipiraw_AutoHDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx576mipiraw_AutoHDR_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx576mipiraw_AutoHDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx576mipiraw_AutoHDR_Preview.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx576mipiraw_AutoHDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx576mipiraw_AutoHDR_Video.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx576mipiraw_Face_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx576mipiraw_Face_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx576mipiraw_Flash_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx576mipiraw_Flash_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx576mipiraw_Flash_HDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx576mipiraw_Flash_HDR_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx576mipiraw_HDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx576mipiraw_HDR_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx576mipiraw_HDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx576mipiraw_HDR_Preview.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx576mipiraw_HDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx576mipiraw_HDR_Video.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx576mipiraw_N3D_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx576mipiraw_N3D_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx576mipiraw_N3D_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx576mipiraw_N3D_Preview.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx576mipiraw_N3D_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx576mipiraw_N3D_Video.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx576mipiraw_Reserved.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx576mipiraw_Reserved.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx576mipiraw_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx576mipiraw_Scene_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx576mipiraw_Scene_Capture_4cell.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx576mipiraw_Scene_Capture_4cell.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx576mipiraw_Scene_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx576mipiraw_Scene_Preview.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx576mipiraw_Scene_Preview_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx576mipiraw_Scene_Preview_4k.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx576mipiraw_Scene_Preview_ZSD_Flash.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx576mipiraw_Scene_Preview_ZSD_Flash.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx576mipiraw_Video_1080.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx576mipiraw_Video_1080.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx576mipiraw_Video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx576mipiraw_Video_4k.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx586mipiraw_AutoHDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx586mipiraw_AutoHDR_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx586mipiraw_AutoHDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx586mipiraw_AutoHDR_Preview.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx586mipiraw_AutoHDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx586mipiraw_AutoHDR_Video.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx586mipiraw_Face_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx586mipiraw_Face_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx586mipiraw_Flash_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx586mipiraw_Flash_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx586mipiraw_Flash_HDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx586mipiraw_Flash_HDR_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx586mipiraw_HDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx586mipiraw_HDR_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx586mipiraw_HDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx586mipiraw_HDR_Preview.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx586mipiraw_HDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx586mipiraw_HDR_Video.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx586mipiraw_N3D_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx586mipiraw_N3D_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx586mipiraw_N3D_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx586mipiraw_N3D_Preview.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx586mipiraw_N3D_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx586mipiraw_N3D_Video.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx586mipiraw_Reserved.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx586mipiraw_Reserved.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx586mipiraw_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx586mipiraw_Scene_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx586mipiraw_Scene_Capture_4cell.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx586mipiraw_Scene_Capture_4cell.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx586mipiraw_Scene_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx586mipiraw_Scene_Preview.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx586mipiraw_Scene_Preview_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx586mipiraw_Scene_Preview_4k.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx586mipiraw_Scene_Preview_ZSD_Flash.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx586mipiraw_Scene_Preview_ZSD_Flash.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx586mipiraw_Video_1080.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx586mipiraw_Video_1080.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx586mipiraw_Video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx586mipiraw_Video_4k.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx682mipiraw_3rd_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx682mipiraw_3rd_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx682mipiraw_3rd_Capture2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx682mipiraw_3rd_Capture2.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx682mipiraw_EIS_Video4K.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx682mipiraw_EIS_Video4K.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx682mipiraw_Face_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx682mipiraw_Face_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx682mipiraw_Face_Capture_64.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx682mipiraw_Face_Capture_64.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx682mipiraw_Face_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx682mipiraw_Face_Preview.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx682mipiraw_Flash_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx682mipiraw_Flash_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx682mipiraw_Flash_Preview_PF.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx682mipiraw_Flash_Preview_PF.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx682mipiraw_HDR_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx682mipiraw_HDR_Scene_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx682mipiraw_MFSR_Scene_Capture_Zoom1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx682mipiraw_MFSR_Scene_Capture_Zoom1.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx682mipiraw_MFSR_Scene_Capture_Zoom2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx682mipiraw_MFSR_Scene_Capture_Zoom2.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx682mipiraw_Panorama_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx682mipiraw_Panorama_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx682mipiraw_Professional_capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx682mipiraw_Professional_capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx682mipiraw_QQ_Capture_ChatMode.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx682mipiraw_QQ_Capture_ChatMode.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx682mipiraw_Reserved.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx682mipiraw_Reserved.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx682mipiraw_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx682mipiraw_Scene_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx682mipiraw_Scene_Capture_64.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx682mipiraw_Scene_Capture_64.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx682mipiraw_Scene_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx682mipiraw_Scene_Preview.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx682mipiraw_Scene_Preview_Zoom1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx682mipiraw_Scene_Preview_Zoom1.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx682mipiraw_Scene_Preview_Zoom2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx682mipiraw_Scene_Preview_Zoom2.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx682mipiraw_SuperNS_Face_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx682mipiraw_SuperNS_Face_Preview.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx682mipiraw_SuperNS_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx682mipiraw_SuperNS_Scene_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx682mipiraw_SuperNS_Scene_Capture_Zoom1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx682mipiraw_SuperNS_Scene_Capture_Zoom1.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx682mipiraw_SuperNS_Scene_Capture_Zoom2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx682mipiraw_SuperNS_Scene_Capture_Zoom2.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx682mipiraw_SuperNS_Scene_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx682mipiraw_SuperNS_Scene_Preview.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx682mipiraw_Torch_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx682mipiraw_Torch_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx682mipiraw_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx682mipiraw_Video.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx682mipiraw_Video_1080P_60fps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx682mipiraw_Video_1080P_60fps.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx682mipiraw_Video_1080P_EIS.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx682mipiraw_Video_1080P_EIS.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx682mipiraw_Video_30fps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx682mipiraw_Video_30fps.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx682mipiraw_Video_480P.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx682mipiraw_Video_480P.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx682mipiraw_Video_4K.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx682mipiraw_Video_4K.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx682mipiraw_Video_4K_Zoom1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx682mipiraw_Video_4K_Zoom1.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx682mipiraw_Video_4K_Zoom2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx682mipiraw_Video_4K_Zoom2.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx682mipiraw_Video_60fps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx682mipiraw_Video_60fps.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx682mipiraw_Video_720P.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx682mipiraw_Video_720P.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx682mipiraw_Video_720P_1080P_120fps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx682mipiraw_Video_720P_1080P_120fps.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx682mipiraw_Video_720P_240fps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx682mipiraw_Video_720P_240fps.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx682mipiraw_Video_720P_EIS.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx682mipiraw_Video_720P_EIS.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx682mipiraw_Video_EIS_Default.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx682mipiraw_Video_EIS_Default.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx682mipiraw_Video_Zoom1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx682mipiraw_Video_Zoom1.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx682mipiraw_Video_Zoom2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx682mipiraw_Video_Zoom2.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx682mipiraw_Video_zoom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx682mipiraw_Video_zoom.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx682mipiraw_Zoom_capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx682mipiraw_Zoom_capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx682mipiraw_portrait_capture_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx682mipiraw_portrait_capture_full.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_imx682mipiraw_portrait_preview_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx682mipiraw_portrait_preview_full.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_ov02b1bmipimono_Capture_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov02b1bmipimono_Capture_Preview.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_ov02b1bmipimono_Default_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov02b1bmipimono_Default_Video.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_ov02b1bmipimono_Production_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov02b1bmipimono_Production_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_ov02b1bmipimono_Reserved.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov02b1bmipimono_Reserved.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_ov02b1bmipimono_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov02b1bmipimono_Scene_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_ov64bmipiraw20730_AutoHDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov64bmipiraw20730_AutoHDR_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_ov64bmipiraw20730_AutoHDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov64bmipiraw20730_AutoHDR_Preview.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_ov64bmipiraw20730_AutoHDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov64bmipiraw20730_AutoHDR_Video.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_ov64bmipiraw20730_Face_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov64bmipiraw20730_Face_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_ov64bmipiraw20730_Flash_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov64bmipiraw20730_Flash_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_ov64bmipiraw20730_Flash_HDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov64bmipiraw20730_Flash_HDR_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_ov64bmipiraw20730_HDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov64bmipiraw20730_HDR_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_ov64bmipiraw20730_HDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov64bmipiraw20730_HDR_Preview.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_ov64bmipiraw20730_HDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov64bmipiraw20730_HDR_Video.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_ov64bmipiraw20730_N3D_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov64bmipiraw20730_N3D_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_ov64bmipiraw20730_N3D_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov64bmipiraw20730_N3D_Preview.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_ov64bmipiraw20730_N3D_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov64bmipiraw20730_N3D_Video.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_ov64bmipiraw20730_Reserved.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov64bmipiraw20730_Reserved.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_ov64bmipiraw20730_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov64bmipiraw20730_Scene_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_ov64bmipiraw20730_Scene_Capture_4cell.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov64bmipiraw20730_Scene_Capture_4cell.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_ov64bmipiraw20730_Scene_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov64bmipiraw20730_Scene_Preview.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_ov64bmipiraw20730_Scene_Preview_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov64bmipiraw20730_Scene_Preview_4k.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_ov64bmipiraw20730_Scene_Preview_ZSD_Flash.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov64bmipiraw20730_Scene_Preview_ZSD_Flash.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_ov64bmipiraw20730_Video_1080.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov64bmipiraw20730_Video_1080.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_ov64bmipiraw20730_Video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov64bmipiraw20730_Video_4k.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_ov8856mipiraw220730_AutoHDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856mipiraw220730_AutoHDR_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_ov8856mipiraw220730_AutoHDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856mipiraw220730_AutoHDR_Preview.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_ov8856mipiraw220730_AutoHDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856mipiraw220730_AutoHDR_Video.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_ov8856mipiraw220730_Face_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856mipiraw220730_Face_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_ov8856mipiraw220730_Flash_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856mipiraw220730_Flash_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_ov8856mipiraw220730_Flash_HDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856mipiraw220730_Flash_HDR_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_ov8856mipiraw220730_HDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856mipiraw220730_HDR_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_ov8856mipiraw220730_HDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856mipiraw220730_HDR_Preview.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_ov8856mipiraw220730_HDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856mipiraw220730_HDR_Video.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_ov8856mipiraw220730_N3D_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856mipiraw220730_N3D_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_ov8856mipiraw220730_N3D_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856mipiraw220730_N3D_Preview.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_ov8856mipiraw220730_N3D_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856mipiraw220730_N3D_Video.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_ov8856mipiraw220730_Reserved.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856mipiraw220730_Reserved.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_ov8856mipiraw220730_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856mipiraw220730_Scene_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_ov8856mipiraw220730_Scene_Capture_4cell.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856mipiraw220730_Scene_Capture_4cell.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_ov8856mipiraw220730_Scene_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856mipiraw220730_Scene_Preview.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_ov8856mipiraw220730_Scene_Preview_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856mipiraw220730_Scene_Preview_4k.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_ov8856mipiraw220730_Scene_Preview_ZSD_Flash.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856mipiraw220730_Scene_Preview_ZSD_Flash.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_ov8856mipiraw220730_Video_1080.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856mipiraw220730_Video_1080.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_ov8856mipiraw220730_Video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856mipiraw220730_Video_4k.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_ov8856mipiraw_AutoHDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856mipiraw_AutoHDR_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_ov8856mipiraw_AutoHDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856mipiraw_AutoHDR_Preview.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_ov8856mipiraw_AutoHDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856mipiraw_AutoHDR_Video.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_ov8856mipiraw_Face_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856mipiraw_Face_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_ov8856mipiraw_Flash_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856mipiraw_Flash_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_ov8856mipiraw_Flash_HDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856mipiraw_Flash_HDR_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_ov8856mipiraw_HDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856mipiraw_HDR_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_ov8856mipiraw_HDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856mipiraw_HDR_Preview.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_ov8856mipiraw_HDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856mipiraw_HDR_Video.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_ov8856mipiraw_N3D_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856mipiraw_N3D_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_ov8856mipiraw_N3D_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856mipiraw_N3D_Preview.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_ov8856mipiraw_N3D_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856mipiraw_N3D_Video.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_ov8856mipiraw_Reserved.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856mipiraw_Reserved.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_ov8856mipiraw_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856mipiraw_Scene_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_ov8856mipiraw_Scene_Capture_4cell.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856mipiraw_Scene_Capture_4cell.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_ov8856mipiraw_Scene_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856mipiraw_Scene_Preview.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_ov8856mipiraw_Scene_Preview_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856mipiraw_Scene_Preview_4k.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_ov8856mipiraw_Scene_Preview_ZSD_Flash.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856mipiraw_Scene_Preview_ZSD_Flash.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_ov8856mipiraw_Video_1080.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856mipiraw_Video_1080.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_ov8856mipiraw_Video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856mipiraw_Video_4k.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5k2l7mipiraw_AutoHDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k2l7mipiraw_AutoHDR_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5k2l7mipiraw_AutoHDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k2l7mipiraw_AutoHDR_Preview.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5k2l7mipiraw_AutoHDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k2l7mipiraw_AutoHDR_Video.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5k2l7mipiraw_Face_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k2l7mipiraw_Face_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5k2l7mipiraw_Flash_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k2l7mipiraw_Flash_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5k2l7mipiraw_Flash_HDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k2l7mipiraw_Flash_HDR_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5k2l7mipiraw_HDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k2l7mipiraw_HDR_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5k2l7mipiraw_HDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k2l7mipiraw_HDR_Preview.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5k2l7mipiraw_HDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k2l7mipiraw_HDR_Video.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5k2l7mipiraw_N3D_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k2l7mipiraw_N3D_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5k2l7mipiraw_N3D_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k2l7mipiraw_N3D_Preview.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5k2l7mipiraw_N3D_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k2l7mipiraw_N3D_Video.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5k2l7mipiraw_Reserved.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k2l7mipiraw_Reserved.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5k2l7mipiraw_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k2l7mipiraw_Scene_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5k2l7mipiraw_Scene_Capture_4cell.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k2l7mipiraw_Scene_Capture_4cell.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5k2l7mipiraw_Scene_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k2l7mipiraw_Scene_Preview.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5k2l7mipiraw_Scene_Preview_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k2l7mipiraw_Scene_Preview_4k.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5k2l7mipiraw_Scene_Preview_ZSD_Flash.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k2l7mipiraw_Scene_Preview_ZSD_Flash.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5k2l7mipiraw_Video_1080.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k2l7mipiraw_Video_1080.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5k2l7mipiraw_Video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k2l7mipiraw_Video_4k.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5k2lqsxmipiraw_AutoHDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k2lqsxmipiraw_AutoHDR_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5k2lqsxmipiraw_AutoHDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k2lqsxmipiraw_AutoHDR_Preview.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5k2lqsxmipiraw_AutoHDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k2lqsxmipiraw_AutoHDR_Video.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5k2lqsxmipiraw_Face_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k2lqsxmipiraw_Face_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5k2lqsxmipiraw_Flash_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k2lqsxmipiraw_Flash_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5k2lqsxmipiraw_Flash_HDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k2lqsxmipiraw_Flash_HDR_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5k2lqsxmipiraw_HDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k2lqsxmipiraw_HDR_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5k2lqsxmipiraw_HDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k2lqsxmipiraw_HDR_Preview.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5k2lqsxmipiraw_HDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k2lqsxmipiraw_HDR_Video.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5k2lqsxmipiraw_N3D_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k2lqsxmipiraw_N3D_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5k2lqsxmipiraw_N3D_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k2lqsxmipiraw_N3D_Preview.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5k2lqsxmipiraw_N3D_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k2lqsxmipiraw_N3D_Video.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5k2lqsxmipiraw_Reserved.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k2lqsxmipiraw_Reserved.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5k2lqsxmipiraw_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k2lqsxmipiraw_Scene_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5k2lqsxmipiraw_Scene_Capture_4cell.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k2lqsxmipiraw_Scene_Capture_4cell.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5k2lqsxmipiraw_Scene_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k2lqsxmipiraw_Scene_Preview.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5k2lqsxmipiraw_Scene_Preview_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k2lqsxmipiraw_Scene_Preview_4k.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5k2lqsxmipiraw_Scene_Preview_ZSD_Flash.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k2lqsxmipiraw_Scene_Preview_ZSD_Flash.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5k2lqsxmipiraw_Video_1080.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k2lqsxmipiraw_Video_1080.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5k2lqsxmipiraw_Video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k2lqsxmipiraw_Video_4k.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5k2t7spmipiraw_AutoHDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k2t7spmipiraw_AutoHDR_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5k2t7spmipiraw_AutoHDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k2t7spmipiraw_AutoHDR_Preview.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5k2t7spmipiraw_AutoHDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k2t7spmipiraw_AutoHDR_Video.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5k2t7spmipiraw_Face_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k2t7spmipiraw_Face_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5k2t7spmipiraw_Flash_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k2t7spmipiraw_Flash_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5k2t7spmipiraw_Flash_HDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k2t7spmipiraw_Flash_HDR_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5k2t7spmipiraw_HDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k2t7spmipiraw_HDR_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5k2t7spmipiraw_HDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k2t7spmipiraw_HDR_Preview.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5k2t7spmipiraw_HDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k2t7spmipiraw_HDR_Video.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5k2t7spmipiraw_N3D_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k2t7spmipiraw_N3D_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5k2t7spmipiraw_N3D_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k2t7spmipiraw_N3D_Preview.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5k2t7spmipiraw_N3D_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k2t7spmipiraw_N3D_Video.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5k2t7spmipiraw_Reserved.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k2t7spmipiraw_Reserved.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5k2t7spmipiraw_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k2t7spmipiraw_Scene_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5k2t7spmipiraw_Scene_Capture_4cell.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k2t7spmipiraw_Scene_Capture_4cell.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5k2t7spmipiraw_Scene_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k2t7spmipiraw_Scene_Preview.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5k2t7spmipiraw_Scene_Preview_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k2t7spmipiraw_Scene_Preview_4k.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5k2t7spmipiraw_Scene_Preview_ZSD_Flash.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k2t7spmipiraw_Scene_Preview_ZSD_Flash.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5k2t7spmipiraw_Video_1080.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k2t7spmipiraw_Video_1080.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5k2t7spmipiraw_Video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k2t7spmipiraw_Video_4k.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5k4h7mipiraw_AutoHDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k4h7mipiraw_AutoHDR_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5k4h7mipiraw_AutoHDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k4h7mipiraw_AutoHDR_Preview.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5k4h7mipiraw_AutoHDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k4h7mipiraw_AutoHDR_Video.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5k4h7mipiraw_Face_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k4h7mipiraw_Face_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5k4h7mipiraw_Flash_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k4h7mipiraw_Flash_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5k4h7mipiraw_Flash_HDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k4h7mipiraw_Flash_HDR_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5k4h7mipiraw_HDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k4h7mipiraw_HDR_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5k4h7mipiraw_HDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k4h7mipiraw_HDR_Preview.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5k4h7mipiraw_HDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k4h7mipiraw_HDR_Video.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5k4h7mipiraw_N3D_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k4h7mipiraw_N3D_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5k4h7mipiraw_N3D_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k4h7mipiraw_N3D_Preview.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5k4h7mipiraw_N3D_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k4h7mipiraw_N3D_Video.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5k4h7mipiraw_Reserved.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k4h7mipiraw_Reserved.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5k4h7mipiraw_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k4h7mipiraw_Scene_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5k4h7mipiraw_Scene_Capture_4cell.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k4h7mipiraw_Scene_Capture_4cell.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5k4h7mipiraw_Scene_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k4h7mipiraw_Scene_Preview.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5k4h7mipiraw_Scene_Preview_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k4h7mipiraw_Scene_Preview_4k.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5k4h7mipiraw_Scene_Preview_ZSD_Flash.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k4h7mipiraw_Scene_Preview_ZSD_Flash.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5k4h7mipiraw_Video_1080.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k4h7mipiraw_Video_1080.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5k4h7mipiraw_Video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k4h7mipiraw_Video_4k.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5kgm1spmipiraw_EIS_Video4K.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgm1spmipiraw_EIS_Video4K.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5kgm1spmipiraw_Face_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgm1spmipiraw_Face_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5kgm1spmipiraw_Face_Capture_64.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgm1spmipiraw_Face_Capture_64.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5kgm1spmipiraw_Face_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgm1spmipiraw_Face_Preview.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5kgm1spmipiraw_Flash_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgm1spmipiraw_Flash_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5kgm1spmipiraw_Flash_Preview_PF.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgm1spmipiraw_Flash_Preview_PF.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5kgm1spmipiraw_HDR_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgm1spmipiraw_HDR_Scene_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5kgm1spmipiraw_MFSR_Scene_Capture_Zoom1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgm1spmipiraw_MFSR_Scene_Capture_Zoom1.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5kgm1spmipiraw_MFSR_Scene_Capture_Zoom2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgm1spmipiraw_MFSR_Scene_Capture_Zoom2.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5kgm1spmipiraw_Panorama_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgm1spmipiraw_Panorama_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5kgm1spmipiraw_Professional_capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgm1spmipiraw_Professional_capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5kgm1spmipiraw_QQ_Capture_ChatMode.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgm1spmipiraw_QQ_Capture_ChatMode.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5kgm1spmipiraw_QQ_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgm1spmipiraw_QQ_Preview.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5kgm1spmipiraw_Reserved.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgm1spmipiraw_Reserved.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5kgm1spmipiraw_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgm1spmipiraw_Scene_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5kgm1spmipiraw_Scene_Capture_64.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgm1spmipiraw_Scene_Capture_64.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5kgm1spmipiraw_Scene_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgm1spmipiraw_Scene_Preview.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5kgm1spmipiraw_Scene_Preview_Zoom1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgm1spmipiraw_Scene_Preview_Zoom1.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5kgm1spmipiraw_Scene_Preview_Zoom2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgm1spmipiraw_Scene_Preview_Zoom2.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5kgm1spmipiraw_SuperNS_Face_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgm1spmipiraw_SuperNS_Face_Preview.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5kgm1spmipiraw_SuperNS_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgm1spmipiraw_SuperNS_Scene_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5kgm1spmipiraw_SuperNS_Scene_Capture_Zoom1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgm1spmipiraw_SuperNS_Scene_Capture_Zoom1.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5kgm1spmipiraw_SuperNS_Scene_Capture_Zoom2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgm1spmipiraw_SuperNS_Scene_Capture_Zoom2.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5kgm1spmipiraw_SuperNS_Scene_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgm1spmipiraw_SuperNS_Scene_Preview.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5kgm1spmipiraw_Torch_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgm1spmipiraw_Torch_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5kgm1spmipiraw_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgm1spmipiraw_Video.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5kgm1spmipiraw_Video_1080P_60fps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgm1spmipiraw_Video_1080P_60fps.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5kgm1spmipiraw_Video_1080P_EIS.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgm1spmipiraw_Video_1080P_EIS.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5kgm1spmipiraw_Video_30fps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgm1spmipiraw_Video_30fps.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5kgm1spmipiraw_Video_480P.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgm1spmipiraw_Video_480P.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5kgm1spmipiraw_Video_4K.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgm1spmipiraw_Video_4K.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5kgm1spmipiraw_Video_4K_Zoom1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgm1spmipiraw_Video_4K_Zoom1.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5kgm1spmipiraw_Video_60fps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgm1spmipiraw_Video_60fps.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5kgm1spmipiraw_Video_720P.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgm1spmipiraw_Video_720P.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5kgm1spmipiraw_Video_720P_1080P_120fps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgm1spmipiraw_Video_720P_1080P_120fps.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5kgm1spmipiraw_Video_720P_240fps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgm1spmipiraw_Video_720P_240fps.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5kgm1spmipiraw_Video_720P_EIS.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgm1spmipiraw_Video_720P_EIS.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5kgm1spmipiraw_Video_EIS_Default.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgm1spmipiraw_Video_EIS_Default.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5kgm1spmipiraw_Video_Zoom1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgm1spmipiraw_Video_Zoom1.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5kgm1spmipiraw_Video_Zoom2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgm1spmipiraw_Video_Zoom2.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5kgm1spmipiraw_Video_zoom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgm1spmipiraw_Video_zoom.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5kgm1spmipiraw_Zoom_capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgm1spmipiraw_Zoom_capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5kgm1spmipiraw_portrait_capture_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgm1spmipiraw_portrait_capture_full.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5kgm1spmipiraw_portrait_preview_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgm1spmipiraw_portrait_preview_full.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5khm2spmipiraw_108M_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5khm2spmipiraw_108M_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5khm2spmipiraw_108M_Flash_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5khm2spmipiraw_108M_Flash_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5khm2spmipiraw_AutoHDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5khm2spmipiraw_AutoHDR_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5khm2spmipiraw_AutoHDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5khm2spmipiraw_AutoHDR_Preview.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5khm2spmipiraw_AutoHDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5khm2spmipiraw_AutoHDR_Video.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5khm2spmipiraw_Face_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5khm2spmipiraw_Face_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5khm2spmipiraw_Flash_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5khm2spmipiraw_Flash_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5khm2spmipiraw_Flash_HDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5khm2spmipiraw_Flash_HDR_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5khm2spmipiraw_HDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5khm2spmipiraw_HDR_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5khm2spmipiraw_HDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5khm2spmipiraw_HDR_Preview.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5khm2spmipiraw_HDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5khm2spmipiraw_HDR_Video.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5khm2spmipiraw_N3D_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5khm2spmipiraw_N3D_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5khm2spmipiraw_N3D_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5khm2spmipiraw_N3D_Preview.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5khm2spmipiraw_N3D_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5khm2spmipiraw_N3D_Video.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5khm2spmipiraw_Reserved.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5khm2spmipiraw_Reserved.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5khm2spmipiraw_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5khm2spmipiraw_Scene_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5khm2spmipiraw_Scene_Capture_4cell.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5khm2spmipiraw_Scene_Capture_4cell.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5khm2spmipiraw_Scene_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5khm2spmipiraw_Scene_Preview.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5khm2spmipiraw_Scene_Preview_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5khm2spmipiraw_Scene_Preview_4k.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5khm2spmipiraw_Scene_Preview_ZSD_Flash.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5khm2spmipiraw_Scene_Preview_ZSD_Flash.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5khm2spmipiraw_Video_1080.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5khm2spmipiraw_Video_1080.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_s5khm2spmipiraw_Video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5khm2spmipiraw_Video_4k.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_salaaqtechmains5kgm1sp_EIS_Video4K.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_salaaqtechmains5kgm1sp_EIS_Video4K.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_salaaqtechmains5kgm1sp_Face_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_salaaqtechmains5kgm1sp_Face_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_salaaqtechmains5kgm1sp_Face_Capture_64.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_salaaqtechmains5kgm1sp_Face_Capture_64.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_salaaqtechmains5kgm1sp_Face_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_salaaqtechmains5kgm1sp_Face_Preview.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_salaaqtechmains5kgm1sp_Flash_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_salaaqtechmains5kgm1sp_Flash_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_salaaqtechmains5kgm1sp_Flash_Preview_PF.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_salaaqtechmains5kgm1sp_Flash_Preview_PF.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_salaaqtechmains5kgm1sp_HDR_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_salaaqtechmains5kgm1sp_HDR_Scene_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_salaaqtechmains5kgm1sp_MFSR_Scene_Capture_Zoom1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_salaaqtechmains5kgm1sp_MFSR_Scene_Capture_Zoom1.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_salaaqtechmains5kgm1sp_MFSR_Scene_Capture_Zoom2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_salaaqtechmains5kgm1sp_MFSR_Scene_Capture_Zoom2.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_salaaqtechmains5kgm1sp_Panorama_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_salaaqtechmains5kgm1sp_Panorama_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_salaaqtechmains5kgm1sp_Professional_capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_salaaqtechmains5kgm1sp_Professional_capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_salaaqtechmains5kgm1sp_QQ_Capture_ChatMode.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_salaaqtechmains5kgm1sp_QQ_Capture_ChatMode.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_salaaqtechmains5kgm1sp_QQ_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_salaaqtechmains5kgm1sp_QQ_Preview.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_salaaqtechmains5kgm1sp_Reserved.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_salaaqtechmains5kgm1sp_Reserved.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_salaaqtechmains5kgm1sp_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_salaaqtechmains5kgm1sp_Scene_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_salaaqtechmains5kgm1sp_Scene_Capture_64.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_salaaqtechmains5kgm1sp_Scene_Capture_64.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_salaaqtechmains5kgm1sp_Scene_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_salaaqtechmains5kgm1sp_Scene_Preview.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_salaaqtechmains5kgm1sp_Scene_Preview_Zoom1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_salaaqtechmains5kgm1sp_Scene_Preview_Zoom1.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_salaaqtechmains5kgm1sp_Scene_Preview_Zoom2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_salaaqtechmains5kgm1sp_Scene_Preview_Zoom2.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_salaaqtechmains5kgm1sp_SuperNS_Face_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_salaaqtechmains5kgm1sp_SuperNS_Face_Preview.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_salaaqtechmains5kgm1sp_SuperNS_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_salaaqtechmains5kgm1sp_SuperNS_Scene_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_salaaqtechmains5kgm1sp_SuperNS_Scene_Capture_Zoom1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_salaaqtechmains5kgm1sp_SuperNS_Scene_Capture_Zoom1.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_salaaqtechmains5kgm1sp_SuperNS_Scene_Capture_Zoom2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_salaaqtechmains5kgm1sp_SuperNS_Scene_Capture_Zoom2.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_salaaqtechmains5kgm1sp_SuperNS_Scene_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_salaaqtechmains5kgm1sp_SuperNS_Scene_Preview.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_salaaqtechmains5kgm1sp_Torch_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_salaaqtechmains5kgm1sp_Torch_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_salaaqtechmains5kgm1sp_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_salaaqtechmains5kgm1sp_Video.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_salaaqtechmains5kgm1sp_Video_1080P_60fps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_salaaqtechmains5kgm1sp_Video_1080P_60fps.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_salaaqtechmains5kgm1sp_Video_1080P_EIS.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_salaaqtechmains5kgm1sp_Video_1080P_EIS.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_salaaqtechmains5kgm1sp_Video_30fps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_salaaqtechmains5kgm1sp_Video_30fps.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_salaaqtechmains5kgm1sp_Video_480P.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_salaaqtechmains5kgm1sp_Video_480P.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_salaaqtechmains5kgm1sp_Video_4K.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_salaaqtechmains5kgm1sp_Video_4K.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_salaaqtechmains5kgm1sp_Video_4K_Zoom1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_salaaqtechmains5kgm1sp_Video_4K_Zoom1.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_salaaqtechmains5kgm1sp_Video_60fps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_salaaqtechmains5kgm1sp_Video_60fps.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_salaaqtechmains5kgm1sp_Video_720P.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_salaaqtechmains5kgm1sp_Video_720P.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_salaaqtechmains5kgm1sp_Video_720P_1080P_120fps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_salaaqtechmains5kgm1sp_Video_720P_1080P_120fps.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_salaaqtechmains5kgm1sp_Video_720P_240fps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_salaaqtechmains5kgm1sp_Video_720P_240fps.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_salaaqtechmains5kgm1sp_Video_720P_EIS.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_salaaqtechmains5kgm1sp_Video_720P_EIS.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_salaaqtechmains5kgm1sp_Video_EIS_Default.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_salaaqtechmains5kgm1sp_Video_EIS_Default.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_salaaqtechmains5kgm1sp_Video_Zoom1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_salaaqtechmains5kgm1sp_Video_Zoom1.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_salaaqtechmains5kgm1sp_Video_Zoom2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_salaaqtechmains5kgm1sp_Video_Zoom2.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_salaaqtechmains5kgm1sp_Video_zoom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_salaaqtechmains5kgm1sp_Video_zoom.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_salaaqtechmains5kgm1sp_Zoom_capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_salaaqtechmains5kgm1sp_Zoom_capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_salaaqtechmains5kgm1sp_portrait_capture_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_salaaqtechmains5kgm1sp_portrait_capture_full.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_salaaqtechmains5kgm1sp_portrait_preview_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_salaaqtechmains5kgm1sp_portrait_preview_full.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_salaov02b10mipiraw_Reserved.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_salaov02b10mipiraw_Reserved.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_salaov02b10mipiraw_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_salaov02b10mipiraw_Scene_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_salaov02b10mipiraw_Scene_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_salaov02b10mipiraw_Scene_Preview.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_salawideov8856_AutoHDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_salawideov8856_AutoHDR_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_salawideov8856_AutoHDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_salawideov8856_AutoHDR_Preview.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_salawideov8856_AutoHDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_salawideov8856_AutoHDR_Video.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_salawideov8856_Face_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_salawideov8856_Face_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_salawideov8856_Face_Capture_superNS.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_salawideov8856_Face_Capture_superNS.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_salawideov8856_Flash_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_salawideov8856_Flash_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_salawideov8856_Flash_HDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_salawideov8856_Flash_HDR_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_salawideov8856_HDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_salawideov8856_HDR_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_salawideov8856_HDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_salawideov8856_HDR_Preview.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_salawideov8856_HDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_salawideov8856_HDR_Video.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_salawideov8856_N3D_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_salawideov8856_N3D_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_salawideov8856_N3D_Capture_48M.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_salawideov8856_N3D_Capture_48M.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_salawideov8856_N3D_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_salawideov8856_N3D_Preview.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_salawideov8856_N3D_Preview_48M.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_salawideov8856_N3D_Preview_48M.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_salawideov8856_N3D_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_salawideov8856_N3D_Video.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_salawideov8856_Reserved.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_salawideov8856_Reserved.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_salawideov8856_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_salawideov8856_Scene_Capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_salawideov8856_Scene_Capture_4cell.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_salawideov8856_Scene_Capture_4cell.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_salawideov8856_Scene_Capture_superNS.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_salawideov8856_Scene_Capture_superNS.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_salawideov8856_Scene_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_salawideov8856_Scene_Preview.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_salawideov8856_Scene_Preview_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_salawideov8856_Scene_Preview_4k.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_salawideov8856_Scene_Preview_ZSD_Flash.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_salawideov8856_Scene_Preview_ZSD_Flash.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_salawideov8856_Scene_Preview_ZSD_superNS.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_salawideov8856_Scene_Preview_ZSD_superNS.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_salawideov8856_Video_1080.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_salawideov8856_Video_1080.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libCamera_salawideov8856_Video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_salawideov8856_Video_4k.so \
     vendor/realme/salaa/proprietary/vendor/lib/libDefaultFpsActor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libDefaultFpsActor.so \
     vendor/realme/salaa/proprietary/vendor/lib/libFrameRecord.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFrameRecord.so \
     vendor/realme/salaa/proprietary/vendor/lib/libHEVCdec_sa.ca7.android.so:$(TARGET_COPY_OUT_VENDOR)/lib/libHEVCdec_sa.ca7.android.so \
@@ -1315,18 +687,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/salaa/proprietary/vendor/lib/libNoFpsActor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libNoFpsActor.so \
     vendor/realme/salaa/proprietary/vendor/lib/libOpenCL.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOpenCL.so \
     vendor/realme/salaa/proprietary/vendor/lib/libPolarrRender.so:$(TARGET_COPY_OUT_VENDOR)/lib/libPolarrRender.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libSQLiteModule_VER_ALL.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSQLiteModule_VER_ALL.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libSonyIMX230PdafLibrary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSonyIMX230PdafLibrary.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libSonyIMX230PdafLibraryWrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSonyIMX230PdafLibraryWrapper.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libSonyIMX338PdafLibrary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSonyIMX338PdafLibrary.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libSonyIMX338PdafLibraryWrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSonyIMX338PdafLibraryWrapper.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libSonyIMX386PdafLibrary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSonyIMX386PdafLibrary.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libSonyIMX386PdafLibraryWrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSonyIMX386PdafLibraryWrapper.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libSonyIMX519PdafLibrary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSonyIMX519PdafLibrary.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libSonyIMX519PdafLibraryWrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSonyIMX519PdafLibraryWrapper.so \
     vendor/realme/salaa/proprietary/vendor/lib/libTEECommon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libTEECommon.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libVDPostureDetection.so:$(TARGET_COPY_OUT_VENDOR)/lib/libVDPostureDetection.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libWaterMark.so:$(TARGET_COPY_OUT_VENDOR)/lib/libWaterMark.so \
     vendor/realme/salaa/proprietary/vendor/lib/lib_bsscore.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_bsscore.so \
     vendor/realme/salaa/proprietary/vendor/lib/lib_iir.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_iir.so \
     vendor/realme/salaa/proprietary/vendor/lib/lib_speech_enh.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_speech_enh.so \
@@ -1342,17 +703,8 @@ PRODUCT_COPY_FILES += \
     vendor/realme/salaa/proprietary/vendor/lib/libapu_mdw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libapu_mdw.so \
     vendor/realme/salaa/proprietary/vendor/lib/libapusys.so:$(TARGET_COPY_OUT_VENDOR)/lib/libapusys.so \
     vendor/realme/salaa/proprietary/vendor/lib/libapusys_edma.so:$(TARGET_COPY_OUT_VENDOR)/lib/libapusys_edma.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libarcsoft_distortion_correction.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_distortion_correction.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libarcsoft_dualcam_bokeh_api.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_dualcam_bokeh_api.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libarcsoft_dualcam_refocus_left.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_dualcam_refocus_left.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libarcsoft_dualcam_refocus_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_dualcam_refocus_preview.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libarcsoft_dualcam_refocus_right.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_dualcam_refocus_right.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libarcsoft_lensstaindetection.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_lensstaindetection.so \
     vendor/realme/salaa/proprietary/vendor/lib/libarmnn.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarmnn.so \
     vendor/realme/salaa/proprietary/vendor/lib/libarmnn_ndk.mtk.vndk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarmnn_ndk.mtk.vndk.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libasn1c_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libasn1c_core.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libasn1c_mapi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libasn1c_mapi.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libasn1c_mdmi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libasn1c_mdmi.so \
     vendor/realme/salaa/proprietary/vendor/lib/libaudio_engineer_test.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudio_engineer_test.so \
     vendor/realme/salaa/proprietary/vendor/lib/libaudio_param_parser-vnd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudio_param_parser-vnd.so \
     vendor/realme/salaa/proprietary/vendor/lib/libaudiocompensationfilter_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudiocompensationfilter_vendor.so \
@@ -1376,48 +728,11 @@ PRODUCT_COPY_FILES += \
     vendor/realme/salaa/proprietary/vendor/lib/libbluetoothem_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbluetoothem_mtk.so \
     vendor/realme/salaa/proprietary/vendor/lib/libbt-vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbt-vendor.so \
     vendor/realme/salaa/proprietary/vendor/lib/libbwc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbwc.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libcam.feature_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.feature_utils.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libcam.hal3a.log.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.hal3a.log.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libcam.hal3a.v3.lscMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.hal3a.v3.lscMgr.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libcam.hal3a.v3.lsctbl.50.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.hal3a.v3.lsctbl.50.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libcam.hal3a.v3.nvram.50.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.hal3a.v3.nvram.50.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libcam.hal3a.v3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.hal3a.v3.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libcam.halsensor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.halsensor.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libcam.iopipe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.iopipe.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libcam.pdtblgen.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.pdtblgen.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libcam.utils.sensorprovider.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.utils.sensorprovider.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libcam.vhdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.vhdr.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libcamalgo.3dnr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamalgo.3dnr.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libcamalgo.dngop.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamalgo.dngop.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libcamalgo.eis.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamalgo.eis.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libcamalgo.fdft.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamalgo.fdft.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libcamalgo.flicker.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamalgo.flicker.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libcamalgo.fsc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamalgo.fsc.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libcamalgo.gyro.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamalgo.gyro.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libcamalgo.ispfeature.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamalgo.ispfeature.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libcamalgo.lmv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamalgo.lmv.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libcamalgo.lsc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamalgo.lsc.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libcamalgo.mfnr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamalgo.mfnr.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libcamalgo.n3d.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamalgo.n3d.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libcamalgo.platform.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamalgo.platform.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libcamalgo.platform2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamalgo.platform2.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libcamalgo.utility.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamalgo.utility.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libcamalgo.vpunr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamalgo.vpunr.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libcamalgo.vsf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamalgo.vsf.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libcamalgo.warp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamalgo.warp.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libcamdrv_imem.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamdrv_imem.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libcamdrv_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamdrv_isp.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libcamdrv_tuning_mgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamdrv_tuning_mgr.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libcamdrv_twin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamdrv_twin.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libcamera_core_hwi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamera_core_hwi.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libcameracustom.eis.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcameracustom.eis.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libcameracustom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcameracustom.so \
     vendor/realme/salaa/proprietary/vendor/lib/libcapctrl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcapctrl.so \
     vendor/realme/salaa/proprietary/vendor/lib/libcares_naptr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcares_naptr.so \
     vendor/realme/salaa/proprietary/vendor/lib/libcarrierconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcarrierconfig.so \
     vendor/realme/salaa/proprietary/vendor/lib/libccci_util.so:$(TARGET_COPY_OUT_VENDOR)/lib/libccci_util.so \
     vendor/realme/salaa/proprietary/vendor/lib/libcharon-ss.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcharon-ss.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libchromanr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromanr.so \
     vendor/realme/salaa/proprietary/vendor/lib/libcmdl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcmdl.so \
     vendor/realme/salaa/proprietary/vendor/lib/libcmdl_ndk.mtk.vndk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcmdl_ndk.mtk.vndk.so \
     vendor/realme/salaa/proprietary/vendor/lib/libcodec2_mtk_c2store.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_mtk_c2store.so \
@@ -1437,25 +752,9 @@ PRODUCT_COPY_FILES += \
     vendor/realme/salaa/proprietary/vendor/lib/libcurl-md.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcurl-md.so \
     vendor/realme/salaa/proprietary/vendor/lib/libcurl-ss.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcurl-ss.so \
     vendor/realme/salaa/proprietary/vendor/lib/libcustom_nvram.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcustom_nvram.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libcustomer_cameradata.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcustomer_cameradata.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libcvface_api.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcvface_api.so \
     vendor/realme/salaa/proprietary/vendor/lib/libcvsd_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcvsd_mtk.so \
     vendor/realme/salaa/proprietary/vendor/lib/libdecrypt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdecrypt.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libdip_drv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdip_drv.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libdip_imem.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdip_imem.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libdip_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdip_postproc.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libdre.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdre.so \
     vendor/realme/salaa/proprietary/vendor/lib/libdynamiclog.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdynamiclog.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libeffecthal.base.so:$(TARGET_COPY_OUT_VENDOR)/lib/libeffecthal.base.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libfeature.face.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfeature.face.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libfeature.stereo.provider.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfeature.stereo.provider.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libfeature.vsdof.hal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfeature.vsdof.hal.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libfeature_3dnr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfeature_3dnr.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libfeature_eis.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfeature_eis.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libfeature_fsc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfeature_fsc.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libfeature_lmv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfeature_lmv.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libfeature_rss.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfeature_rss.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libfeatureiodrv_mem.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfeatureiodrv_mem.so \
     vendor/realme/salaa/proprietary/vendor/lib/libfgauge_gm30.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfgauge_gm30.so \
     vendor/realme/salaa/proprietary/vendor/lib/libfile_op.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfile_op.so \
     vendor/realme/salaa/proprietary/vendor/lib/libformatter.so:$(TARGET_COPY_OUT_VENDOR)/lib/libformatter.so \
@@ -1487,7 +786,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/salaa/proprietary/vendor/lib/libion_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libion_mtk.so \
     vendor/realme/salaa/proprietary/vendor/lib/libion_ulit.so:$(TARGET_COPY_OUT_VENDOR)/lib/libion_ulit.so \
     vendor/realme/salaa/proprietary/vendor/lib/libipsec_ims_shr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libipsec_ims_shr.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libispcameraca.so:$(TARGET_COPY_OUT_VENDOR)/lib/libispcameraca.so \
     vendor/realme/salaa/proprietary/vendor/lib/libjpeg-alpha-oal_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpeg-alpha-oal_vendor.so \
     vendor/realme/salaa/proprietary/vendor/lib/libjpeg-alpha_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpeg-alpha_vendor.so \
     vendor/realme/salaa/proprietary/vendor/lib/libktvdrc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libktvdrc.so \
@@ -1507,53 +805,12 @@ PRODUCT_COPY_FILES += \
     vendor/realme/salaa/proprietary/vendor/lib/libmp3dec_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmp3dec_mtk.so \
     vendor/realme/salaa/proprietary/vendor/lib/libmp4enc_sa.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmp4enc_sa.ca7.so \
     vendor/realme/salaa/proprietary/vendor/lib/libmp4enc_xa.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmp4enc_xa.ca7.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libmpbase.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmpbase.so \
     vendor/realme/salaa/proprietary/vendor/lib/libmsbc_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmsbc_mtk.so \
     vendor/realme/salaa/proprietary/vendor/lib/libmsnr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmsnr.so \
     vendor/realme/salaa/proprietary/vendor/lib/libmtcloader.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtcloader.so \
     vendor/realme/salaa/proprietary/vendor/lib/libmtkares.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkares.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libmtkcam.atmseventmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam.atmseventmgr.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libmtkcam.eventcallback.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam.eventcallback.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libmtkcam.featurepipe.capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam.featurepipe.capture.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libmtkcam.featurepipe.depthmap.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam.featurepipe.depthmap.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libmtkcam.featurepipe.streaming.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam.featurepipe.streaming.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libmtkcam.featurepipe.vsdof_util.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam.featurepipe.vsdof_util.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libmtkcam.logicalmodule.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam.logicalmodule.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libmtkcam_3rdparty.core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_3rdparty.core.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libmtkcam_3rdparty.customer.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_3rdparty.customer.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libmtkcam_3rdparty.mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_3rdparty.mtk.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libmtkcam_3rdparty.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_3rdparty.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libmtkcam_calibration_convertor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_calibration_convertor.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libmtkcam_calibration_provider.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_calibration_provider.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libmtkcam_debugutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_debugutils.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libmtkcam_dpe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_dpe.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libmtkcam_exif.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_exif.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libmtkcam_fdvt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_fdvt.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libmtkcam_grallocutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_grallocutils.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libmtkcam_hwnode.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_hwnode.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libmtkcam_hwutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_hwutils.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libmtkcam_imgbuf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_imgbuf.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libmtkcam_mapping_mgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_mapping_mgr.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libmtkcam_metadata.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_metadata.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libmtkcam_metastore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_metastore.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libmtkcam_mfb.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_mfb.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libmtkcam_modulehelper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_modulehelper.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libmtkcam_owe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_owe.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libmtkcam_pipeline.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_pipeline.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libmtkcam_pipeline_fbm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_pipeline_fbm.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libmtkcam_pipelinemodel_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_pipelinemodel_isp.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libmtkcam_prerelease.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_prerelease.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libmtkcam_rsc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_rsc.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libmtkcam_scenariorecorder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_scenariorecorder.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libmtkcam_stdutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_stdutils.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libmtkcam_streamutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_streamutils.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libmtkcam_synchelper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_synchelper.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libmtkcam_sysutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_sysutils.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libmtkcam_tuning_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_tuning_utils.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libmtkcam_ulog.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_ulog.so \
     vendor/realme/salaa/proprietary/vendor/lib/libmtkcutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcutils.so \
     vendor/realme/salaa/proprietary/vendor/lib/libmtkhardware_legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkhardware_legacy.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libmtkisp_metadata.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkisp_metadata.so \
     vendor/realme/salaa/proprietary/vendor/lib/libmtklimiter_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtklimiter_vendor.so \
     vendor/realme/salaa/proprietary/vendor/lib/libmtknetutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtknetutils.so \
     vendor/realme/salaa/proprietary/vendor/lib/libmtkperf_client_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkperf_client_vendor.so \
@@ -1568,11 +825,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/salaa/proprietary/vendor/lib/libnir_neon_driver_ndk.mtk.vndk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnir_neon_driver_ndk.mtk.vndk.so \
     vendor/realme/salaa/proprietary/vendor/lib/libnvram.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnvram.so \
     vendor/realme/salaa/proprietary/vendor/lib/libnvram_sec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnvram_sec.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libocam_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libocam_common.so \
-    vendor/realme/salaa/proprietary/vendor/lib/liboplus.aishutter.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboplus.aishutter.so \
     vendor/realme/salaa/proprietary/vendor/lib/liboplus_audio_config.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboplus_audio_config.so \
-    vendor/realme/salaa/proprietary/vendor/lib/liboplus_platform_hwi.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboplus_platform_hwi.so \
-    vendor/realme/salaa/proprietary/vendor/lib/liboppo_arcSoftBokehEngine_new.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboppo_arcSoftBokehEngine_new.so \
     vendor/realme/salaa/proprietary/vendor/lib/libperfctl_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libperfctl_vendor.so \
     vendor/realme/salaa/proprietary/vendor/lib/libpkm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpkm.so \
     vendor/realme/salaa/proprietary/vendor/lib/libpower_timer.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpower_timer.so \
@@ -1596,8 +849,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/salaa/proprietary/vendor/lib/libssl-md.so:$(TARGET_COPY_OUT_VENDOR)/lib/libssl-md.so \
     vendor/realme/salaa/proprietary/vendor/lib/libssl-ss.so:$(TARGET_COPY_OUT_VENDOR)/lib/libssl-ss.so \
     vendor/realme/salaa/proprietary/vendor/lib/libstagefrighthw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefrighthw.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libstereoinfoaccessor_vsdof.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstereoinfoaccessor_vsdof.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libstface_fd_api.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstface_fd_api.so \
     vendor/realme/salaa/proprietary/vendor/lib/libstrongswan.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstrongswan.so \
     vendor/realme/salaa/proprietary/vendor/lib/libsysenv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsysenv.so \
     vendor/realme/salaa/proprietary/vendor/lib/libtflite_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtflite_mtk.so \
@@ -1635,32 +886,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/salaa/proprietary/vendor/lib/mt6785/libmtk_drvb.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6785/libmtk_drvb.so \
     vendor/realme/salaa/proprietary/vendor/lib/mt6785/libnir_neon_driver.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6785/libnir_neon_driver.so \
     vendor/realme/salaa/proprietary/vendor/lib/mt6785/libpq_prot.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6785/libpq_prot.so \
-    vendor/realme/salaa/proprietary/vendor/lib/ov02b1b_mipi_mono_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/ov02b1b_mipi_mono_IdxMgr.so \
-    vendor/realme/salaa/proprietary/vendor/lib/ov02b1b_mipi_mono_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/ov02b1b_mipi_mono_tuning.so \
-    vendor/realme/salaa/proprietary/vendor/lib/ov64b_mipi_raw_20730_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/ov64b_mipi_raw_20730_IdxMgr.so \
-    vendor/realme/salaa/proprietary/vendor/lib/ov64b_mipi_raw_20730_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/ov64b_mipi_raw_20730_tuning.so \
-    vendor/realme/salaa/proprietary/vendor/lib/ov8856_mipi_raw2_20730_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/ov8856_mipi_raw2_20730_IdxMgr.so \
-    vendor/realme/salaa/proprietary/vendor/lib/ov8856_mipi_raw2_20730_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/ov8856_mipi_raw2_20730_tuning.so \
-    vendor/realme/salaa/proprietary/vendor/lib/ov8856_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/ov8856_mipi_raw_IdxMgr.so \
-    vendor/realme/salaa/proprietary/vendor/lib/ov8856_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/ov8856_mipi_raw_tuning.so \
-    vendor/realme/salaa/proprietary/vendor/lib/s5k2l7_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/s5k2l7_mipi_raw_IdxMgr.so \
-    vendor/realme/salaa/proprietary/vendor/lib/s5k2l7_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/s5k2l7_mipi_raw_tuning.so \
-    vendor/realme/salaa/proprietary/vendor/lib/s5k2lqsx_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/s5k2lqsx_mipi_raw_IdxMgr.so \
-    vendor/realme/salaa/proprietary/vendor/lib/s5k2lqsx_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/s5k2lqsx_mipi_raw_tuning.so \
-    vendor/realme/salaa/proprietary/vendor/lib/s5k2t7sp_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/s5k2t7sp_mipi_raw_IdxMgr.so \
-    vendor/realme/salaa/proprietary/vendor/lib/s5k2t7sp_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/s5k2t7sp_mipi_raw_tuning.so \
-    vendor/realme/salaa/proprietary/vendor/lib/s5k4h7_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/s5k4h7_mipi_raw_IdxMgr.so \
-    vendor/realme/salaa/proprietary/vendor/lib/s5k4h7_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/s5k4h7_mipi_raw_tuning.so \
-    vendor/realme/salaa/proprietary/vendor/lib/s5kgm1sp_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/s5kgm1sp_mipi_raw_IdxMgr.so \
-    vendor/realme/salaa/proprietary/vendor/lib/s5kgm1sp_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/s5kgm1sp_mipi_raw_tuning.so \
-    vendor/realme/salaa/proprietary/vendor/lib/s5khm2sp_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/s5khm2sp_mipi_raw_IdxMgr.so \
-    vendor/realme/salaa/proprietary/vendor/lib/s5khm2sp_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/s5khm2sp_mipi_raw_tuning.so \
-    vendor/realme/salaa/proprietary/vendor/lib/sala_ov02b10_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/sala_ov02b10_mipi_raw_IdxMgr.so \
-    vendor/realme/salaa/proprietary/vendor/lib/sala_ov02b10_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/sala_ov02b10_mipi_raw_tuning.so \
-    vendor/realme/salaa/proprietary/vendor/lib/sala_wide_ov8856_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/sala_wide_ov8856_IdxMgr.so \
-    vendor/realme/salaa/proprietary/vendor/lib/sala_wide_ov8856_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/sala_wide_ov8856_tuning.so \
-    vendor/realme/salaa/proprietary/vendor/lib/salaa_qtech_main_s5kgm1sp_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/salaa_qtech_main_s5kgm1sp_IdxMgr.so \
-    vendor/realme/salaa/proprietary/vendor/lib/salaa_qtech_main_s5kgm1sp_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/salaa_qtech_main_s5kgm1sp_tuning.so \
     vendor/realme/salaa/proprietary/vendor/lib/soundfx/libaudiopreprocessing_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libaudiopreprocessing_mtk.so \
     vendor/realme/salaa/proprietary/vendor/lib/vendor.mediatek.hardware.apmonitor@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.apmonitor@2.0.so \
     vendor/realme/salaa/proprietary/vendor/lib/vendor.mediatek.hardware.apuware.utils@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.apuware.utils@2.0.so \
@@ -1668,11 +893,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/salaa/proprietary/vendor/lib/vendor.mediatek.hardware.audio@7.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.audio@7.1.so \
     vendor/realme/salaa/proprietary/vendor/lib/vendor.mediatek.hardware.bluetooth.audio@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.bluetooth.audio@2.1.so \
     vendor/realme/salaa/proprietary/vendor/lib/vendor.mediatek.hardware.bluetooth.audio@2.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.bluetooth.audio@2.2.so \
-    vendor/realme/salaa/proprietary/vendor/lib/vendor.mediatek.hardware.camera.atms@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.camera.atms@1.0.so \
-    vendor/realme/salaa/proprietary/vendor/lib/vendor.mediatek.hardware.camera.bgservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.camera.bgservice@1.0.so \
-    vendor/realme/salaa/proprietary/vendor/lib/vendor.mediatek.hardware.camera.bgservice@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.camera.bgservice@1.1.so \
-    vendor/realme/salaa/proprietary/vendor/lib/vendor.mediatek.hardware.camera.isphal@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.camera.isphal@1.0.so \
-    vendor/realme/salaa/proprietary/vendor/lib/vendor.mediatek.hardware.camera.postproc@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.camera.postproc@1.0.so \
     vendor/realme/salaa/proprietary/vendor/lib/vendor.mediatek.hardware.keymaster_attestation@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.keymaster_attestation@1.0.so \
     vendor/realme/salaa/proprietary/vendor/lib/vendor.mediatek.hardware.keymaster_attestation@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.keymaster_attestation@1.1.so \
     vendor/realme/salaa/proprietary/vendor/lib/vendor.mediatek.hardware.mdmonitor@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.mdmonitor@1.0.so \
