@@ -178,12 +178,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/salaa/proprietary/odm/firmware/tp/20682/LIMIT_NT36672C_NF_TIANMA.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/20682/LIMIT_NT36672C_NF_TIANMA.img \
     vendor/realme/salaa/proprietary/odm/init.oplus.fingerprints.rc:$(TARGET_COPY_OUT_ODM)/init.oplus.fingerprints.rc \
     vendor/realme/salaa/proprietary/odm/init.oplus.seccommon.rc:$(TARGET_COPY_OUT_ODM)/init.oplus.seccommon.rc \
-    vendor/realme/salaa/proprietary/odm/lib/anc.hal.so:$(TARGET_COPY_OUT_ODM)/lib/anc.hal.so \
-    vendor/realme/salaa/proprietary/odm/lib/hw/fingerprint.goodix_G2.default.so:$(TARGET_COPY_OUT_ODM)/lib/hw/fingerprint.goodix_G2.default.so \
-    vendor/realme/salaa/proprietary/odm/lib/hw/fingerprint.goodix_G3.default.so:$(TARGET_COPY_OUT_ODM)/lib/hw/fingerprint.goodix_G3.default.so \
-    vendor/realme/salaa/proprietary/odm/lib/hw/fingerprint.goodix_G5.default.so:$(TARGET_COPY_OUT_ODM)/lib/hw/fingerprint.goodix_G5.default.so \
-    vendor/realme/salaa/proprietary/odm/lib/hw/fingerprint.goodix_G6.default.so:$(TARGET_COPY_OUT_ODM)/lib/hw/fingerprint.goodix_G6.default.so \
-    vendor/realme/salaa/proprietary/odm/lib/hw/fingerprint.goodix_G7.default.so:$(TARGET_COPY_OUT_ODM)/lib/hw/fingerprint.goodix_G7.default.so \
     vendor/realme/salaa/proprietary/odm/lib/libavcodec.so:$(TARGET_COPY_OUT_ODM)/lib/libavcodec.so \
     vendor/realme/salaa/proprietary/odm/lib/libavformat.so:$(TARGET_COPY_OUT_ODM)/lib/libavformat.so \
     vendor/realme/salaa/proprietary/odm/lib/libavutil.so:$(TARGET_COPY_OUT_ODM)/lib/libavutil.so \
@@ -193,11 +187,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/salaa/proprietary/odm/lib/libdpservice.so:$(TARGET_COPY_OUT_ODM)/lib/libdpservice.so \
     vendor/realme/salaa/proprietary/odm/lib/libffmpeg_omx.so:$(TARGET_COPY_OUT_ODM)/lib/libffmpeg_omx.so \
     vendor/realme/salaa/proprietary/odm/lib/libffmpeg_utils.so:$(TARGET_COPY_OUT_ODM)/lib/libffmpeg_utils.so \
-    vendor/realme/salaa/proprietary/odm/lib/libgf_hal_G2.so:$(TARGET_COPY_OUT_ODM)/lib/libgf_hal_G2.so \
-    vendor/realme/salaa/proprietary/odm/lib/libgf_hal_G3.so:$(TARGET_COPY_OUT_ODM)/lib/libgf_hal_G3.so \
-    vendor/realme/salaa/proprietary/odm/lib/libgf_hal_G5.so:$(TARGET_COPY_OUT_ODM)/lib/libgf_hal_G5.so \
-    vendor/realme/salaa/proprietary/odm/lib/libgf_hal_G6.so:$(TARGET_COPY_OUT_ODM)/lib/libgf_hal_G6.so \
-    vendor/realme/salaa/proprietary/odm/lib/libgf_hal_G7.so:$(TARGET_COPY_OUT_ODM)/lib/libgf_hal_G7.so \
     vendor/realme/salaa/proprietary/odm/lib/liboemcrypto.so:$(TARGET_COPY_OUT_ODM)/lib/liboemcrypto.so \
     vendor/realme/salaa/proprietary/odm/lib/libormshalclient.so:$(TARGET_COPY_OUT_ODM)/lib/libormshalclient.so \
     vendor/realme/salaa/proprietary/odm/lib/libpn553_fw.so:$(TARGET_COPY_OUT_ODM)/lib/libpn553_fw.so \
@@ -211,9 +200,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/salaa/proprietary/odm/lib/soundfx/awinic.haptic.effect.so:$(TARGET_COPY_OUT_ODM)/lib/soundfx/awinic.haptic.effect.so \
     vendor/realme/salaa/proprietary/odm/lib/soundfx/libhaptic_effect.so:$(TARGET_COPY_OUT_ODM)/lib/soundfx/libhaptic_effect.so \
     vendor/realme/salaa/proprietary/odm/lib/vendor.oplus.hardware.appradio@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.appradio@1.0.so \
-    vendor/realme/salaa/proprietary/odm/lib/vendor.oplus.hardware.biometrics.fingerprint@2.1.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.biometrics.fingerprint@2.1.so \
     vendor/realme/salaa/proprietary/odm/lib/vendor.oplus.hardware.charger@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.charger@1.0.so \
-    vendor/realme/salaa/proprietary/odm/lib/vendor.oplus.hardware.commondcs@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.commondcs@1.0.so \
     vendor/realme/salaa/proprietary/odm/lib/vendor.oplus.hardware.ims@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.ims@1.0.so \
     vendor/realme/salaa/proprietary/odm/lib/vendor.oplus.hardware.mtkmodemaci@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.mtkmodemaci@1.0.so \
     vendor/realme/salaa/proprietary/odm/lib/vendor.oplus.hardware.oplusSensor@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.oplusSensor@1.0.so \
