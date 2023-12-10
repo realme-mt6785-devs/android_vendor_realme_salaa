@@ -164,34 +164,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/salaa/proprietary/odm/firmware/barca_alarm_ring_RTP_120.bin:$(TARGET_COPY_OUT_ODM)/firmware/barca_alarm_ring_RTP_120.bin \
     vendor/realme/salaa/proprietary/odm/firmware/barca_incoming_ring_RTP_121.bin:$(TARGET_COPY_OUT_ODM)/firmware/barca_incoming_ring_RTP_121.bin \
     vendor/realme/salaa/proprietary/odm/firmware/barca_notice_ring_RTP_122.bin:$(TARGET_COPY_OUT_ODM)/firmware/barca_notice_ring_RTP_122.bin \
-    vendor/realme/salaa/proprietary/odm/firmware/fastchg/20171/oplus_vooc_fw_op10.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/20171/oplus_vooc_fw_op10.bin \
-    vendor/realme/salaa/proprietary/odm/firmware/fastchg/20353/oplus_vooc_fw_op10.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/20353/oplus_vooc_fw_op10.bin \
-    vendor/realme/salaa/proprietary/odm/firmware/fastchg/20615/charging_thermal_config_default.txt:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/20615/charging_thermal_config_default.txt \
-    vendor/realme/salaa/proprietary/odm/firmware/fastchg/20662/charging_thermal_config_default.txt:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/20662/charging_thermal_config_default.txt \
-    vendor/realme/salaa/proprietary/odm/firmware/fastchg/20827/oplus_vooc_fw_op10.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/20827/oplus_vooc_fw_op10.bin \
-    vendor/realme/salaa/proprietary/odm/firmware/fastchg/20827/oplus_vooc_fw_rt5125.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/20827/oplus_vooc_fw_rt5125.bin \
-    vendor/realme/salaa/proprietary/odm/firmware/fastchg/20831/oplus_vooc_fw_op10.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/20831/oplus_vooc_fw_op10.bin \
-    vendor/realme/salaa/proprietary/odm/firmware/fastchg/20831/oplus_vooc_fw_rt5125.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/20831/oplus_vooc_fw_rt5125.bin \
-    vendor/realme/salaa/proprietary/odm/firmware/fastchg/21609/charging_thermal_config_default.txt:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/21609/charging_thermal_config_default.txt \
-    vendor/realme/salaa/proprietary/odm/firmware/fastchg/21651/charging_thermal_config_default.txt:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/21651/charging_thermal_config_default.txt \
     vendor/realme/salaa/proprietary/odm/firmware/fastchg/charging_thermal_config_default.txt:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/charging_thermal_config_default.txt \
-    vendor/realme/salaa/proprietary/odm/firmware/tp/20171/FW_S3908_BOE.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/20171/FW_S3908_BOE.img \
-    vendor/realme/salaa/proprietary/odm/firmware/tp/20171/FW_S3908_BOE_FAE.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/20171/FW_S3908_BOE_FAE.img \
-    vendor/realme/salaa/proprietary/odm/firmware/tp/20171/FW_S3908_TIANMA.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/20171/FW_S3908_TIANMA.img \
-    vendor/realme/salaa/proprietary/odm/firmware/tp/20171/FW_S3908_TIANMA_FAE.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/20171/FW_S3908_TIANMA_FAE.img \
-    vendor/realme/salaa/proprietary/odm/firmware/tp/20171/FW_S6SY792_SAMSUNG.bin:$(TARGET_COPY_OUT_ODM)/firmware/tp/20171/FW_S6SY792_SAMSUNG.bin \
-    vendor/realme/salaa/proprietary/odm/firmware/tp/20171/FW_S6SY792_SAMSUNG_FAE.bin:$(TARGET_COPY_OUT_ODM)/firmware/tp/20171/FW_S6SY792_SAMSUNG_FAE.bin \
-    vendor/realme/salaa/proprietary/odm/firmware/tp/20171/LIMIT_S3908_BOE.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/20171/LIMIT_S3908_BOE.img \
-    vendor/realme/salaa/proprietary/odm/firmware/tp/20171/LIMIT_S3908_TIANMA.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/20171/LIMIT_S3908_TIANMA.img \
-    vendor/realme/salaa/proprietary/odm/firmware/tp/20171/LIMIT_S6SY792_SAMSUNG.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/20171/LIMIT_S6SY792_SAMSUNG.img \
-    vendor/realme/salaa/proprietary/odm/firmware/tp/20353/FW_S3908_BOE.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/20353/FW_S3908_BOE.img \
-    vendor/realme/salaa/proprietary/odm/firmware/tp/20353/FW_S3908_BOE_FAE.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/20353/FW_S3908_BOE_FAE.img \
-    vendor/realme/salaa/proprietary/odm/firmware/tp/20353/LIMIT_S3908_BOE.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/20353/LIMIT_S3908_BOE.img \
-    vendor/realme/salaa/proprietary/odm/firmware/tp/20615/FW_FT3518_SAMSUNG.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/20615/FW_FT3518_SAMSUNG.img \
-    vendor/realme/salaa/proprietary/odm/firmware/tp/20615/FW_FT3518_SAMSUNG_FAE.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/20615/FW_FT3518_SAMSUNG_FAE.img \
-    vendor/realme/salaa/proprietary/odm/firmware/tp/20615/LIMIT_FT3518_SAMSUNG.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/20615/LIMIT_FT3518_SAMSUNG.img \
-    vendor/realme/salaa/proprietary/odm/firmware/tp/20682/FW_GT9886_SAMSUNG.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/20682/FW_GT9886_SAMSUNG.img \
-    vendor/realme/salaa/proprietary/odm/firmware/tp/20682/FW_GT9886_SAMSUNG_FAE.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/20682/FW_GT9886_SAMSUNG_FAE.img \
     vendor/realme/salaa/proprietary/odm/firmware/tp/20682/FW_NT36672C_NF_BOE.bin:$(TARGET_COPY_OUT_ODM)/firmware/tp/20682/FW_NT36672C_NF_BOE.bin \
     vendor/realme/salaa/proprietary/odm/firmware/tp/20682/FW_NT36672C_NF_BOE_FAE.bin:$(TARGET_COPY_OUT_ODM)/firmware/tp/20682/FW_NT36672C_NF_BOE_FAE.bin \
     vendor/realme/salaa/proprietary/odm/firmware/tp/20682/FW_NT36672C_NF_BOE_TEST.bin:$(TARGET_COPY_OUT_ODM)/firmware/tp/20682/FW_NT36672C_NF_BOE_TEST.bin \
@@ -201,31 +174,9 @@ PRODUCT_COPY_FILES += \
     vendor/realme/salaa/proprietary/odm/firmware/tp/20682/FW_NT36672C_NF_TIANMA.bin:$(TARGET_COPY_OUT_ODM)/firmware/tp/20682/FW_NT36672C_NF_TIANMA.bin \
     vendor/realme/salaa/proprietary/odm/firmware/tp/20682/FW_NT36672C_NF_TIANMA_FAE.bin:$(TARGET_COPY_OUT_ODM)/firmware/tp/20682/FW_NT36672C_NF_TIANMA_FAE.bin \
     vendor/realme/salaa/proprietary/odm/firmware/tp/20682/FW_NT36672C_NF_TIANMA_TEST.bin:$(TARGET_COPY_OUT_ODM)/firmware/tp/20682/FW_NT36672C_NF_TIANMA_TEST.bin \
-    vendor/realme/salaa/proprietary/odm/firmware/tp/20682/LIMIT_GT9886_SAMSUNG.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/20682/LIMIT_GT9886_SAMSUNG.img \
     vendor/realme/salaa/proprietary/odm/firmware/tp/20682/LIMIT_NT36672C_NF_BOE.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/20682/LIMIT_NT36672C_NF_BOE.img \
     vendor/realme/salaa/proprietary/odm/firmware/tp/20682/LIMIT_NT36672C_NF_JDI.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/20682/LIMIT_NT36672C_NF_JDI.img \
     vendor/realme/salaa/proprietary/odm/firmware/tp/20682/LIMIT_NT36672C_NF_TIANMA.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/20682/LIMIT_NT36672C_NF_TIANMA.img \
-    vendor/realme/salaa/proprietary/odm/firmware/tp/20730/FW_FT3518_SAMSUNG.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/20730/FW_FT3518_SAMSUNG.img \
-    vendor/realme/salaa/proprietary/odm/firmware/tp/20730/FW_FT3518_SAMSUNG_FAE.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/20730/FW_FT3518_SAMSUNG_FAE.img \
-    vendor/realme/salaa/proprietary/odm/firmware/tp/20730/FW_GT9886_SAMSUNG.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/20730/FW_GT9886_SAMSUNG.img \
-    vendor/realme/salaa/proprietary/odm/firmware/tp/20730/FW_GT9886_SAMSUNG_FAE.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/20730/FW_GT9886_SAMSUNG_FAE.img \
-    vendor/realme/salaa/proprietary/odm/firmware/tp/20730/LIMIT_FT3518_SAMSUNG.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/20730/LIMIT_FT3518_SAMSUNG.img \
-    vendor/realme/salaa/proprietary/odm/firmware/tp/20730/LIMIT_GT9886_SAMSUNG.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/20730/LIMIT_GT9886_SAMSUNG.img \
-    vendor/realme/salaa/proprietary/odm/firmware/tp/20817/FW_FT3518_SAMSUNG.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/20817/FW_FT3518_SAMSUNG.img \
-    vendor/realme/salaa/proprietary/odm/firmware/tp/20817/FW_FT3518_SAMSUNG_FAE.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/20817/FW_FT3518_SAMSUNG_FAE.img \
-    vendor/realme/salaa/proprietary/odm/firmware/tp/20817/LIMIT_FT3518_SAMSUNG.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/20817/LIMIT_FT3518_SAMSUNG.img \
-    vendor/realme/salaa/proprietary/odm/firmware/tp/21015/FW_S3908_BOE.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/21015/FW_S3908_BOE.img \
-    vendor/realme/salaa/proprietary/odm/firmware/tp/21015/FW_S3908_BOE_FAE.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/21015/FW_S3908_BOE_FAE.img \
-    vendor/realme/salaa/proprietary/odm/firmware/tp/21015/FW_S3908_TIANMA.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/21015/FW_S3908_TIANMA.img \
-    vendor/realme/salaa/proprietary/odm/firmware/tp/21015/FW_S3908_TIANMA_FAE.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/21015/FW_S3908_TIANMA_FAE.img \
-    vendor/realme/salaa/proprietary/odm/firmware/tp/21015/FW_S6SY792_SAMSUNG.bin:$(TARGET_COPY_OUT_ODM)/firmware/tp/21015/FW_S6SY792_SAMSUNG.bin \
-    vendor/realme/salaa/proprietary/odm/firmware/tp/21015/FW_S6SY792_SAMSUNG_FAE.bin:$(TARGET_COPY_OUT_ODM)/firmware/tp/21015/FW_S6SY792_SAMSUNG_FAE.bin \
-    vendor/realme/salaa/proprietary/odm/firmware/tp/21015/LIMIT_S3908_BOE.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/21015/LIMIT_S3908_BOE.img \
-    vendor/realme/salaa/proprietary/odm/firmware/tp/21015/LIMIT_S3908_TIANMA.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/21015/LIMIT_S3908_TIANMA.img \
-    vendor/realme/salaa/proprietary/odm/firmware/tp/21015/LIMIT_S6SY792_SAMSUNG.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/21015/LIMIT_S6SY792_SAMSUNG.img \
-    vendor/realme/salaa/proprietary/odm/firmware/tp/21061/FW_FT3518_SAMSUNG.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/21061/FW_FT3518_SAMSUNG.img \
-    vendor/realme/salaa/proprietary/odm/firmware/tp/21061/FW_FT3518_SAMSUNG_FAE.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/21061/FW_FT3518_SAMSUNG_FAE.img \
-    vendor/realme/salaa/proprietary/odm/firmware/tp/21061/LIMIT_FT3518_SAMSUNG.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/21061/LIMIT_FT3518_SAMSUNG.img \
     vendor/realme/salaa/proprietary/odm/init.oplus.fingerprints.rc:$(TARGET_COPY_OUT_ODM)/init.oplus.fingerprints.rc \
     vendor/realme/salaa/proprietary/odm/init.oplus.seccommon.rc:$(TARGET_COPY_OUT_ODM)/init.oplus.seccommon.rc \
     vendor/realme/salaa/proprietary/odm/lib/anc.hal.so:$(TARGET_COPY_OUT_ODM)/lib/anc.hal.so \
@@ -635,33 +586,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/salaa/proprietary/vendor/firmware/em_filter_1_ulwctg_n.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/em_filter_1_ulwctg_n.bin \
     vendor/realme/salaa/proprietary/vendor/firmware/fm_cust.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/fm_cust.cfg \
     vendor/realme/salaa/proprietary/vendor/firmware/gt1151_default_firmware2.img:$(TARGET_COPY_OUT_VENDOR)/firmware/gt1151_default_firmware2.img \
-    vendor/realme/salaa/proprietary/vendor/firmware/gt9886_cfg_6781v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_cfg_6781v01.bin \
-    vendor/realme/salaa/proprietary/vendor/firmware/gt9886_cfg_6785v96.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_cfg_6785v96.bin \
-    vendor/realme/salaa/proprietary/vendor/firmware/gt9886_cfg_6785v99.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_cfg_6785v99.bin \
-    vendor/realme/salaa/proprietary/vendor/firmware/gt9886_cfg_6853v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_cfg_6853v01.bin \
-    vendor/realme/salaa/proprietary/vendor/firmware/gt9886_cfg_6873v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_cfg_6873v01.bin \
-    vendor/realme/salaa/proprietary/vendor/firmware/gt9886_cfg_6877v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_cfg_6877v01.bin \
-    vendor/realme/salaa/proprietary/vendor/firmware/gt9886_cfg_6885v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_cfg_6885v01.bin \
-    vendor/realme/salaa/proprietary/vendor/firmware/gt9886_cfg_6885v1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_cfg_6885v1.bin \
-    vendor/realme/salaa/proprietary/vendor/firmware/gt9886_cfg_6885v9c.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_cfg_6885v9c.bin \
-    vendor/realme/salaa/proprietary/vendor/firmware/gt9886_cfg_6893v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_cfg_6893v01.bin \
-    vendor/realme/salaa/proprietary/vendor/firmware/gt9886_cfg_90hz6785.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_cfg_90hz6785.bin \
-    vendor/realme/salaa/proprietary/vendor/firmware/gt9886_cfg_90hz6877.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_cfg_90hz6877.bin \
-    vendor/realme/salaa/proprietary/vendor/firmware/gt9886_cfg_90hz6885.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_cfg_90hz6885.bin \
-    vendor/realme/salaa/proprietary/vendor/firmware/gt9886_cfg_gt9885v1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_cfg_gt9885v1.bin \
-    vendor/realme/salaa/proprietary/vendor/firmware/gt9886_firmware_6781v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_firmware_6781v01.bin \
-    vendor/realme/salaa/proprietary/vendor/firmware/gt9886_firmware_6785a4.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_firmware_6785a4.bin \
-    vendor/realme/salaa/proprietary/vendor/firmware/gt9886_firmware_6785ae.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_firmware_6785ae.bin \
-    vendor/realme/salaa/proprietary/vendor/firmware/gt9886_firmware_6853v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_firmware_6853v01.bin \
-    vendor/realme/salaa/proprietary/vendor/firmware/gt9886_firmware_6873v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_firmware_6873v01.bin \
-    vendor/realme/salaa/proprietary/vendor/firmware/gt9886_firmware_6877af.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_firmware_6877af.bin \
-    vendor/realme/salaa/proprietary/vendor/firmware/gt9886_firmware_6877v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_firmware_6877v01.bin \
-    vendor/realme/salaa/proprietary/vendor/firmware/gt9886_firmware_6885a1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_firmware_6885a1.bin \
-    vendor/realme/salaa/proprietary/vendor/firmware/gt9886_firmware_6885af.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_firmware_6885af.bin \
-    vendor/realme/salaa/proprietary/vendor/firmware/gt9886_firmware_6885b0.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_firmware_6885b0.bin \
-    vendor/realme/salaa/proprietary/vendor/firmware/gt9886_firmware_6885b1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_firmware_6885b1.bin \
-    vendor/realme/salaa/proprietary/vendor/firmware/gt9886_firmware_6885v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_firmware_6885v01.bin \
-    vendor/realme/salaa/proprietary/vendor/firmware/gt9886_firmware_6893v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_firmware_6893v01.bin \
     vendor/realme/salaa/proprietary/vendor/firmware/lib3a.ccu:$(TARGET_COPY_OUT_VENDOR)/firmware/lib3a.ccu \
     vendor/realme/salaa/proprietary/vendor/firmware/libccu_gc02m1_mipi_raw_207301:$(TARGET_COPY_OUT_VENDOR)/firmware/libccu_gc02m1_mipi_raw_207301 \
     vendor/realme/salaa/proprietary/vendor/firmware/libccu_gc02m1_mipi_raw_207302:$(TARGET_COPY_OUT_VENDOR)/firmware/libccu_gc02m1_mipi_raw_207302 \
