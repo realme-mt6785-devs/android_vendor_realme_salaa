@@ -187,7 +187,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/salaa/proprietary/odm/lib/libdpservice.so:$(TARGET_COPY_OUT_ODM)/lib/libdpservice.so \
     vendor/realme/salaa/proprietary/odm/lib/libffmpeg_omx.so:$(TARGET_COPY_OUT_ODM)/lib/libffmpeg_omx.so \
     vendor/realme/salaa/proprietary/odm/lib/libffmpeg_utils.so:$(TARGET_COPY_OUT_ODM)/lib/libffmpeg_utils.so \
-    vendor/realme/salaa/proprietary/odm/lib/liboemcrypto.so:$(TARGET_COPY_OUT_ODM)/lib/liboemcrypto.so \
     vendor/realme/salaa/proprietary/odm/lib/libormshalclient.so:$(TARGET_COPY_OUT_ODM)/lib/libormshalclient.so \
     vendor/realme/salaa/proprietary/odm/lib/libpn553_fw.so:$(TARGET_COPY_OUT_ODM)/lib/libpn553_fw.so \
     vendor/realme/salaa/proprietary/odm/lib/libpn557_fw.so:$(TARGET_COPY_OUT_ODM)/lib/libpn557_fw.so \
@@ -817,9 +816,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/salaa/proprietary/vendor/lib/libtflite_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtflite_mtk.so \
     vendor/realme/salaa/proprietary/vendor/lib/libthermalalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libthermalalgo.so \
     vendor/realme/salaa/proprietary/vendor/lib/libthha.so:$(TARGET_COPY_OUT_VENDOR)/lib/libthha.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libtlcWidevineModularDrm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtlcWidevineModularDrm.so \
     vendor/realme/salaa/proprietary/vendor/lib/libudf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libudf.so \
-    vendor/realme/salaa/proprietary/vendor/lib/liburee_meta_drmkeyinstall.so:$(TARGET_COPY_OUT_VENDOR)/lib/liburee_meta_drmkeyinstall.so \
     vendor/realme/salaa/proprietary/vendor/lib/libvcodec_oal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvcodec_oal.so \
     vendor/realme/salaa/proprietary/vendor/lib/libvcodec_utility.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvcodec_utility.so \
     vendor/realme/salaa/proprietary/vendor/lib/libvcodecdrv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvcodecdrv.so \
@@ -840,8 +837,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/salaa/proprietary/vendor/lib/libvpud_vcodec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvpud_vcodec.so \
     vendor/realme/salaa/proprietary/vendor/lib/libvt_custom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvt_custom.so \
     vendor/realme/salaa/proprietary/vendor/lib/libwo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwo.so \
-    vendor/realme/salaa/proprietary/vendor/lib/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwvhidl.so \
-    vendor/realme/salaa/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so \
     vendor/realme/salaa/proprietary/vendor/lib/mt6785/libdpframework.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6785/libdpframework.so \
     vendor/realme/salaa/proprietary/vendor/lib/mt6785/libmtk_drvb.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6785/libmtk_drvb.so \
     vendor/realme/salaa/proprietary/vendor/lib/mt6785/libnir_neon_driver.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6785/libnir_neon_driver.so \
