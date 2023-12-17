@@ -6,8 +6,6 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/realme/salaa
 
 PRODUCT_COPY_FILES += \
-    vendor/realme/salaa/proprietary/lib/libem_support_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libem_support_jni.so \
-    vendor/realme/salaa/proprietary/lib64/libem_support_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libem_support_jni.so \
     vendor/realme/salaa/proprietary/odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service \
     vendor/realme/salaa/proprietary/odm/bin/hw/vendor.oplus.hardware.charger@1.0-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.oplus.hardware.charger@1.0-service \
     vendor/realme/salaa/proprietary/odm/bin/hw/vendor.oplus.hardware.mtkmodemaci@1.0-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.oplus.hardware.mtkmodemaci@1.0-service \
@@ -290,7 +288,9 @@ PRODUCT_COPY_FILES += \
     vendor/realme/salaa/proprietary/odm/vendor/app/mcRegistry/09150000000000000000000000000000.tlbin:$(TARGET_COPY_OUT_ODM)/vendor/app/mcRegistry/09150000000000000000000000000000.tlbin \
     vendor/realme/salaa/proprietary/system_ext/bin/vtservice:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/vtservice \
     vendor/realme/salaa/proprietary/system_ext/etc/init/init.vtservice.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.vtservice.rc \
+    vendor/realme/salaa/proprietary/system_ext/lib/libem_support_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libem_support_jni.so \
     vendor/realme/salaa/proprietary/system_ext/lib64/libcomutils.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libcomutils.so \
+    vendor/realme/salaa/proprietary/system_ext/lib64/libem_support_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libem_support_jni.so \
     vendor/realme/salaa/proprietary/system_ext/lib64/libimsma.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libimsma.so \
     vendor/realme/salaa/proprietary/system_ext/lib64/libimsma_adapt.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libimsma_adapt.so \
     vendor/realme/salaa/proprietary/system_ext/lib64/libimsma_rtp.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libimsma_rtp.so \
@@ -2049,9 +2049,9 @@ PRODUCT_COPY_FILES += \
     vendor/realme/salaa/proprietary/vendor/lib64/vendor.trustonic.tee@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.trustonic.tee@1.1.so
 
 PRODUCT_PACKAGES += \
-    EngineerMode \
     ImsService \
     HotwordEnrollmentOKGoogleCORTEXM4 \
+    EngineerMode \
     mediatek-common \
     mediatek-framework \
     mediatek-gwsd \
